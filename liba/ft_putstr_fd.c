@@ -1,18 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit.c                                       :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/19 19:35:15 by fhiedi            #+#    #+#             */
-/*   Updated: 2021/10/19 19:40:32 by fhiedi           ###   ########.fr       */
+/*   Created: 2021/11/18 16:41:26 by fhiedi            #+#    #+#             */
+/*   Updated: 2021/11/18 17:06:01 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isdigit(int c)
+#include "libft.h"
+
+void	ft_putstr_fd(char *s, int fd)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	return (0);
+	int	run;
+
+	run = 0;
+	while (s[run])
+		ft_putchar_fd(s[run++], fd);
 }
