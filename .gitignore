@@ -1,0 +1,11 @@
+.gitignore
+*.swp
+.DS*
+test*
+*.o
+a.out
+res
+main.c
+.main.c
+.m.c
+.*
