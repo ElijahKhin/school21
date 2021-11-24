@@ -1,0 +1,49 @@
+Hi!When you need to link one of the standard libraries, e.g. libm (the math library), that resides in one of the the default library search paths, you don't need to pass any -L option. -lm alone will do.
+
+Q2.c: How to specify different search paths where make will look for the prerequisites of targets?
+
+N.B. This is a question about make, not a question about the preprocessor, compiler, or linker.
+
+We have assumed that all of your object files will be compiled into the subdirectory obj. To get them compiled there, it would be nice and simple just to use the pattern rule:
+
+obj/%.o:%.c
+    gcc -c -o $@ $(CPPFLAGS) $(CFLAGS) $<
+which tell make that, e.g. obj/file0.o is made from file0.c by the recipe:
+
+gcc -c -o obj/file0.o $(CPPFLAGS) $(CFLAGS) file0.c
+and similarly for any file obj/*.o and matching file *.c
+
+This is fine as long file0.c resides in the same directory as the makefile, but suppose you have your *.c files somewhere else? Say your source files are organised in subdirectories, foo/file0.c and bar/file1.c. Then make will be unable to satisfy that pattern rule and will say there is "no rule to make target obj/file0.o", etc.
+
+To solve this problem use VPATH, a make variable that has a special meaning. If you assign a list of directory names, punctuated by ':', to VPATH, then make will search for a prerequisite in each of the listed directories whenever it can't find it in the current directory. So:
+
+VPATH = foo:bar
+will cause make to look in the current directory, and then foo and bar when it tries to find .c files to match that pattern rule. It will succeed in satisfying the rule and will compile the necessary source files.
+
+N.B. You have used VPATH wrongly in your posted code:
+
+VPATH = -L/home/dkumar/libtsnnls-2.3.3/tsnnls
+You have asigned a linker search path to it, with the linker option -L, which has no business there.
+
+Bottom line:
+
+The preprecessor search paths, for locating header files, are specified with the preprocessor's -I<dirname> option. Pass these options to the compile recipe in CPPFLAGS
+
+The linker search paths, for locating libraries, are specified with the linker's -L<dirname> option. Pass these options to the linkage recipe in LDFLAGS
+
+The search paths for the preprequisities of make rules are specified in the make variable VPATH, as a ':-punctuated list of directory names.
+
+Share
+Improve this answer
+Follow
+edited Jan 27 '15 at 14:46
+answered Jan 27 '15 at 14:35
+
+Mike Kinghan
+48.8k99 gold badges130130 silver badges164164 bronze badges
+Thanks for such a detailed response. This is exactly what I was looking for. I can not really thank you enough. – 
+Garima Singh
+ Jan 27 '15 at 14:56
+I would give +10 if I could. This answer sums up every question I ever had about Makefiles. I will keep it as reference for ever. Thank you! – 
+Fuzzyma
+ Sep 22 '16 at 19:34
