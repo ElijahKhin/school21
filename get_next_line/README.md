@@ -8,6 +8,6 @@ The goal of this project is to create the function get_next_line.c which, when c
 Get_next_line is a simple and challenging project which allows you to learn deeply about open(), read() and close() functions as well as static variables and file descriptors.
 
 ## Skills
-Rigor
-Unix
-Algorithms & AI
+- Rigor
+- Unix
+- Algorithms & AI
