@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/12/25 17:35:52 by fhiedi            #+#    #+#             */
-/*   Updated: 2021/12/29 19:25:55 by fhiedi           ###   ########.fr       */
+/*   Created: 2021/12/29 19:26:30 by fhiedi            #+#    #+#             */
+/*   Updated: 2021/12/29 19:26:37 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ char	*get_ret_string(char *join)
 
 char	*get_line(int fd)
 {
-	static char	*join;
+	static char	*join[257];
 	char		*ret_string;
 	int			end;
 	char		*buf;
@@ -88,7 +88,7 @@ char	*get_line(int fd)
 	if (!buf)
 		return (NULL);
 	end = 1;
-	while (!iter(join) && end != 0)
+	while (!iter(join[fd]) && end != 0)
 	{
 		end = read(fd, buf, BUFFER_SIZE);
 		if (end == -1)
@@ -97,17 +97,17 @@ char	*get_line(int fd)
 			return (NULL);
 		}
 		buf[end] = '\0';
-		join = ft_strjoin(join, buf);
+		join[fd] = ft_strjoin(join[fd], buf);
 	}
 	free(buf);
-	ret_string = get_ret_string(join);
-	join = get_short_join(join);
+	ret_string = get_ret_string(join[fd]);
+	join[fd] = get_short_join(join[fd]);
 	return (ret_string);
 }
 
 char	*get_next_line(int fd)
 {
-	if (fd < 0 || BUFFER_SIZE < 1)
+	if (fd < 0 || fd > 256 || BUFFER_SIZE < 1)
 		return (NULL);
 	return (get_line(fd));
 }
