@@ -9,3 +9,4 @@ main.c
 .main.c
 .m.c
 .*
+,*
