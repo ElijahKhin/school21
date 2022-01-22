@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/13 18:03:29 by fhiedi            #+#    #+#              #
-#    Updated: 2021/11/21 20:35:32 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/01/18 17:40:06 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -55,16 +55,15 @@ FLAGS = -c -Wall -Wextra -Werror
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	@ar rc $(NAME) $(OBJ)
-	@ranlib $(NAME)
+	ar rcs $(NAME) $(OBJ)
 
-$(OBJ):
-	@gcc $(FLAGS) $(SRC)
+%.o: %.c libft.h
+	gcc $(FLAGS) -c $< -o $@
 
 clean:
-	@rm -rf *.o
+	rm -rf *.o
 
 fclean: clean
-	@rm -rf $(NAME)
+	rm -rf $(NAME)
 
 re: fclean all
