@@ -5,17 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/14 13:02:47 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/01/18 17:35:28 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/01/23 17:12:34 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/01/28 15:23:40 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
-
 # define LIBFT_H
-
-# include <stdlib.h>
+# include <stdio.h>
 # include <unistd.h>
+# include <stdlib.h>
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}	t_list;
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+t_list	*ft_lstnew(void *content);
+t_list	*ft_lstlast(t_list *lst);
 
 typedef struct kill_fucking_split{
 	int	junk;
@@ -57,5 +65,12 @@ int		ft_isdigit(int c);
 int		ft_isprint(int c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
+void	ft_lstiter(t_list *lst, void (*f)(void *));
+void	ft_lstclear(t_list **lst, void (*del)(void *));
+void	ft_lstdelone(t_list *lst, void (*del)(void *));
+void	ft_lstadd_front(t_list **lst, t_list *new);
+void	ft_lstadd_back(t_list **lst, t_list *new);
+int		ft_lstsize(t_list *lst);
+int		ft_isalpha(int c);
 
-#endif
+#endif 
