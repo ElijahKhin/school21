@@ -6,12 +6,12 @@
 #    By: sworker <sworker@student.21-school.ru>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/07/13 02:30:40 by cwindom           #+#    #+#              #
-#    Updated: 2022/02/08 16:44:50 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/02/08 20:26:23 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
-CC = clang
+CC = gcc 
 MAKE = make
 HEADER = ft_printf.h
 
