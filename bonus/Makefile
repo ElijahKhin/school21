@@ -6,33 +6,36 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/23 17:18:54 by fhiedi            #+#    #+#              #
-#    Updated: 2022/02/08 16:51:12 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/02/09 17:47:57 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
-SRC = 
-SRC_BON = 
-		
-OBJ = $(SRC:.c=.o)
+SRC = printf.c print_arg.c ./includes/ft_print_char.c ./includes/ft_print_str.c
 
-OBJ_BON = $(SRC_BON:.c=.o)
+OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	ar rcs $(NAME) $(OBJ)
+	@cd libft && make all bonus
+	@echo libft.a created
+	@cp libft/libft.a $(NAME)
+	@ar -rcs $(NAME) $(OBJ)
+	@echo libftprintf.a created
 
-%.o: %.c libft.h
+%.o: %.c header.h
 	gcc -c -Wall -Wextra -Werror $< -o $@
 
 clean:
-	rm -rf *.o
+	@rm -rf $(OBJ)
+	@cd libft && make clean
+	@echo object files deleted
 
 fclean: clean
-	rm -rf a.out $(NAME)
+	@rm -rf a.out $(NAME)
+	@cd libft && make fclean
+	@echo *.a and binary files deleted
 
-bonus: $(OBJ) $(OBJ_BON)
-	ar rcs $(NAME) $^
 
-re: clean all bonus
+re: fclean all

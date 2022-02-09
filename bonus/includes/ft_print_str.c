@@ -1,20 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_print_str.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sworker <sworker@student.21-school.ru>     +#+  +:+       +#+        */
+/*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/17 14:31:58 by sworker           #+#    #+#             */
-/*   Updated: 2022/01/17 14:31:59 by sworker          ###   ########.fr       */
+/*   Created: 2022/02/09 17:33:32 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/02/09 17:45:55 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../header.h"
+#include "../libft/libft.h"
 
-int	ft_isalnum(int c)
+int ft_print_str(va_list arg_ptr)
 {
-	if (ft_isdigit(c) || ft_isalpha(c))
-		return (1);
-	return (0);
+	char *str;
+
+	str = va_arg(arg_ptr, char *);
+	return (ft_putstr(str));
 }

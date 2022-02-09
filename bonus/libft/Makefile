@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/23 17:18:54 by fhiedi            #+#    #+#              #
-#    Updated: 2022/02/08 16:48:34 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/02/09 17:38:13 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,8 @@ SRC = 	ft_isalpha.c ft_isalpha.c ft_isalnum.c \
 		ft_strrchr.c ft_strlcat.c ft_strlcpy.c ft_tolower.c \
 		ft_toupper.c ft_substr.c ft_strjoin.c ft_strtrim.c \
 		ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c \
-		ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
+		ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
+		ft_putstr.c
 
 SRC_BON = ft_lstmap.c ft_lstnew.c ft_lstadd_front.c ft_lstsize.c \
 		  ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c \
@@ -32,19 +33,19 @@ OBJ_BON = $(SRC_BON:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	ar rcs $(NAME) $(OBJ)
+	@ar rcs $(NAME) $(OBJ)
 
 %.o: %.c libft.h
 	gcc -c -Wall -Wextra -Werror $< -o $@
 
 clean:
-	rm -rf *.o
+	@rm -rf *.o
 
 fclean: clean
-	rm -rf a.out $(NAME)
+	@rm -rf a.out $(NAME)
 
-bonus: $(OBJ) $(OBJ_BON)
-	ar rcs $(NAME) $^
+bonus: $(OBJ_BON)
+	@ar rcs $(NAME) $<
 
 re: clean all bonus
 

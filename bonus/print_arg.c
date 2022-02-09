@@ -1,22 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
+/*   parser.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sworker <sworker@student.21-school.ru>     +#+  +:+       +#+        */
+/*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/17 14:24:24 by sworker           #+#    #+#             */
-/*   Updated: 2022/01/17 14:27:41 by sworker          ###   ########.fr       */
+/*   Created: 2022/02/09 15:57:29 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/02/09 17:59:17 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "header.h"
 
-int	ft_tolower(int c)
+int print_arg(char ch, va_list arg_ptr)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (c + 32);
-	if (c < -1)
-		return (c + 256);
-	return (c);
+	int printed;
+
+	printed = 0;
+	if (ch == 'c')
+		printed += ft_print_char(arg_ptr);
+	if (ch == 's')
+		printed += ft_print_str(arg_ptr);
+	return (printed);
 }

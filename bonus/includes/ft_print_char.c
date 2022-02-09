@@ -1,25 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_print_char.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sworker <sworker@student.21-school.ru>     +#+  +:+       +#+        */
+/*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/01/17 14:28:23 by sworker           #+#    #+#             */
-/*   Updated: 2022/01/17 14:28:25 by sworker          ###   ########.fr       */
+/*   Created: 2022/02/09 15:59:27 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/02/09 16:38:56 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../header.h"
 
-void	ft_putendl_fd(char *s, int fd)
+int ft_print_char(va_list arg_ptr)
 {
-	if (!s || fd < 0)
-		return ;
-	while (*s)
-	{
-		write(fd, s, 1);
-		s++;
-	}
-	ft_putchar_fd('\n', fd);
+	char ch;
+
+	ch = va_arg(arg_ptr, int);
+	return (write(1, &ch, 1));
 }
