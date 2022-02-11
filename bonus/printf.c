@@ -6,11 +6,11 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/08 16:59:41 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/09 17:55:21 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/11 16:51:44 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "header.h"
+#include "ft_printf.h"
 
 int ft_printf(const char *format, ...)
 {
@@ -31,6 +31,6 @@ int ft_printf(const char *format, ...)
 		else
 			printed += write(1, &format[runner++], 1);
 	}
-	return(printed);
+	return (printed);
 }
 

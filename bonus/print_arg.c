@@ -6,11 +6,11 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 15:57:29 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/09 17:59:17 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/11 16:51:54 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "header.h"
+#include "ft_printf.h"
 
 int print_arg(char ch, va_list arg_ptr)
 {
@@ -18,8 +18,19 @@ int print_arg(char ch, va_list arg_ptr)
 
 	printed = 0;
 	if (ch == 'c')
-		printed += ft_print_char(arg_ptr);
+		printed += ft_print_char(va_arg(arg_ptr, int));
 	if (ch == 's')
-		printed += ft_print_str(arg_ptr);
+		printed += ft_print_str(va_arg(arg_ptr, char *));
+	if (ch == 'd' || ch == 'i')
+		printed += ft_print_nbr(va_arg(arg_ptr, int));
+	if (ch == 'u')
+		printed += ft_unsigned_nbr(va_arg(arg_ptr, unsigned int));
+	if (ch == 'p')
+		printed += ft_print_hex(va_arg(arg_ptr, unsigned long int), ch);
+	if (ch == 'x' || ch == 'X')
+		printed += ft_print_hex(va_arg(arg_ptr, unsigned int), ch);
+	if (ch == '%')
+		printed += write(1, &"%", 1);
+
 	return (printed);
 }

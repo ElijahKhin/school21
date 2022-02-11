@@ -6,12 +6,13 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/23 17:18:54 by fhiedi            #+#    #+#              #
-#    Updated: 2022/02/09 17:47:57 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/02/11 16:46:01 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
-SRC = printf.c print_arg.c ./includes/ft_print_char.c ./includes/ft_print_str.c
+SRC = printf.c print_arg.c ./includes/ft_print_char.c ./includes/ft_print_str.c \
+	  ./includes/ft_print_nbr.c ./includes/ft_print_hex.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -24,7 +25,7 @@ $(NAME): $(OBJ)
 	@ar -rcs $(NAME) $(OBJ)
 	@echo libftprintf.a created
 
-%.o: %.c header.h
+%.o: %.c ft_printf.h
 	gcc -c -Wall -Wextra -Werror $< -o $@
 
 clean:
@@ -33,7 +34,7 @@ clean:
 	@echo object files deleted
 
 fclean: clean
-	@rm -rf a.out $(NAME)
+	@rm -rf a.out */a.out $(NAME)
 	@cd libft && make fclean
 	@echo *.a and binary files deleted
 

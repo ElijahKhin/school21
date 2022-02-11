@@ -6,17 +6,16 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 17:33:32 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/09 17:45:55 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/11 14:24:40 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../header.h"
+#include "../ft_printf.h"
 #include "../libft/libft.h"
 
-int ft_print_str(va_list arg_ptr)
+int ft_print_str(char *str)
 {
-	char *str;
-
-	str = va_arg(arg_ptr, char *);
+	if (!str)
+		return (ft_putstr("(null)"));
 	return (ft_putstr(str));
 }

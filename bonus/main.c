@@ -6,15 +6,36 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 16:50:57 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/09 17:47:21 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/11 17:19:30 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "header.h"
+#include "ft_printf.h"
+#include <limits.h>
 
 int main(void)
 {
-	printf("%d\n", ft_printf("Hello %c %s", 'J', "world!"));
-	printf("%d\n", printf("Hello %c %s", 'J', "world!"));
+	int d;
+
+	d = 10;
+/*	unsigned int test = LONG_MIN;
+	char *p;
+
+	p = NULL;
+
+	printf("%d   ", ft_printf("%c ", 'H'));
+	printf("%d\n\n", printf("%c ", 'H'));
+
+	printf("%d   ", ft_printf("NULL %s NULL", NULL));
+	printf("%d\n\n", printf("NULL %s NULL", NULL));
+	
+	printf("%d   ", ft_printf("%d ", -1000));
+	printf("%d\n\n", printf("%d ", -1000));
+
+	printf("%d   ", ft_printf("%u ", -1000));
+	printf("%d\n", printf("%u ", -1000));*/
+
+	printf("%-200d", d);
+	
 	return (0);
 }

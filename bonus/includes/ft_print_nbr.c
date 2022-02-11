@@ -1,21 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_char.c                                    :+:      :+:    :+:   */
+/*   ft_print_nbr.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/09 15:59:27 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/11 14:14:53 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/02/10 16:09:13 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/02/11 14:11:08 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
+#include "../libft/libft.h"
 
-int ft_print_char(char ch)
+int ft_unsigned_nbr(unsigned int nbr)
 {
-//	char ch;
+	static int runner;
 
-//	ch = va_arg(arg_ptr, int);
-	return (write(1, &ch, 1));
+	runner = 0;
+	if (nbr / 10)
+		ft_unsigned_nbr(nbr / 10);
+	nbr = nbr % 10 + 48;
+	runner += write(1, &nbr, 1);
+	return (runner);
+}
+
+int ft_print_nbr(int nbr)
+{
+	int printed;
+
+	printed = 0;
+	if (nbr < 0)
+	{
+		printed = write(1, "-", 1);
+		printed += ft_unsigned_nbr(-nbr);
+	}
+	else
+		printed += ft_unsigned_nbr(nbr);
+   	return (printed);
 }
