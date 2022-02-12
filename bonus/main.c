@@ -6,7 +6,7 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 16:50:57 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/11 17:19:30 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/12 17:44:05 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,8 @@ int main(void)
 {
 	int d;
 
-	d = 10;
+	d = 90;
+
 /*	unsigned int test = LONG_MIN;
 	char *p;
 
@@ -35,7 +36,7 @@ int main(void)
 	printf("%d   ", ft_printf("%u ", -1000));
 	printf("%d\n", printf("%u ", -1000));*/
 
-	printf("%-200d", d);
+	printf("%-20c hello", d);
 	
 	return (0);
 }
