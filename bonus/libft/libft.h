@@ -6,7 +6,7 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/23 17:12:34 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/09 17:37:48 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/14 19:15:36 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strdup(const char *src);
 char	*ft_itoa(int n);
+int		num_len(int n);
 int		ft_strncmp(const char *s1, const char *s2, unsigned int n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 int		ft_isalnum(int c);

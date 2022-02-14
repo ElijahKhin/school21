@@ -6,7 +6,7 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/08 16:59:41 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/12 18:18:37 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/14 19:14:04 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,8 @@
 
 int ft_printf(const char *format, ...)
 {
+	int *data_spec;
+	char *take;
 	int		runner;
 	int		printed;
 	va_list	arg_ptr;
@@ -22,16 +24,18 @@ int ft_printf(const char *format, ...)
 	runner = 0;
 	printed = 0;
 	va_start(arg_ptr, format);
-	ft_atoi(ft_substr(format, format[3], format[ ])
+	
 	while (format[runner] != '\0')
 	{
+//		printf("The first print!: %c\n", format[runner]);
 		if (format[runner] == '%')
-		{
-/*			if (format[runner + 1] == '-')
-			{
-				print_width(ft_substr(
-			}*/
-			printed += print_arg(format[++runner], arg_ptr);
+		{	
+			take = ft_substr(format, runner + 1, ft_strlen(format) + 1);
+			data_spec = check_flags(take);
+			printed += data_spec[0];
+			free(take);
+			take = NULL;
+			printed += print_arg(format[runner + data_spec[1]], arg_ptr);
 			runner++;
 		}
 		else

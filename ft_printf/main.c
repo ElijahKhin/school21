@@ -6,7 +6,7 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 16:50:57 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/14 18:46:48 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/11 16:38:03 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,6 @@
 
 int main(void)
 {
-	int d;
-	char *str;
-	char ch;
-
-	ch = 'K';
-	str = "hello ";
-	d = 90;
-
 /*	unsigned int test = LONG_MIN;
 	char *p;
 
@@ -40,7 +32,8 @@ int main(void)
 	printf("%d   ", ft_printf("%u ", -1000));
 	printf("%d\n", printf("%u ", -1000));*/
 
-	ft_printf("%-2c world!");
+	printf("%lx\n", LONG_MIN);
+	ft_printf("%x", LONG_MIN);
 	
 	return (0);
 }

@@ -1,18 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_char.c                                    :+:      :+:    :+:   */
+/*   get_width.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/09 15:59:27 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/12 20:51:04 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/02/12 19:25:09 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/02/14 19:10:38 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../ft_printf.h"
+#include "../libft/libft.h"
 
-int ft_print_char(char ch)
+int get_width(char **format)
 {
-	return (write(1, &ch, 1));
+	int width;
+	int runner;
+
+	runner = 0;
+	width = (format[0][++runner] - 48) * 10;
+	while (ft_isdigit(format[0][++runner]))
+		width = (width + (format[0][runner] - 48)) * 10;
+	return (width/10);
 }

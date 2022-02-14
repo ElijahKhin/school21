@@ -6,7 +6,7 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/08 17:01:41 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/11 14:58:23 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/14 19:09:30 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef FT_PRINTF_H
@@ -22,6 +22,9 @@ typedef struct row_info
 	va_list	arg_ptr;
 } t_rinfo;
 
+
+int	*check_flags(char *format);
+int get_width(char **format);
 int recusion_hex(unsigned long int  arg, char ch);
 int ft_print_hex(unsigned long int arg, char ch);
 int ft_printf(const char *format, ...);

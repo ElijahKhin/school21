@@ -6,7 +6,7 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 20:37:04 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/09 18:18:18 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/02/10 18:04:27 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int	ft_putnbr_u(unsigned int nb)
 	char		p;
 	static int	count;
 
+	printf("%d\n", nb);
 	count = 0;
 	if (nb >= 10)
 		ft_putnbr_u(nb / 10);
