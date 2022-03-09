@@ -6,12 +6,12 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/23 17:18:54 by fhiedi            #+#    #+#              #
-#    Updated: 2022/02/12 19:35:53 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/02/17 18:54:25 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
-SRC = printf.c print_arg.c ./includes/ft_print_char.c ./includes/ft_print_str.c \
+SRC = printf.c def_spec.c ./includes/ft_print_char.c ./includes/ft_print_str.c \
 	  ./includes/ft_print_nbr.c ./includes/ft_print_hex.c ./includes/check_flags.c \
 	  ./includes/get_width.c
 
@@ -38,6 +38,8 @@ fclean: clean
 	@rm -rf a.out */a.out $(NAME)
 	@cd libft && make fclean
 	@echo *.a and binary files deleted
+
+bonus: all
 
 
 re: fclean all

@@ -6,13 +6,13 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/09 15:57:29 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/14 18:44:11 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/03/09 16:39:47 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int print_arg(char ch, va_list arg_ptr)
+int def_spec(char ch, va_list arg_ptr)
 {
 	int printed;
 

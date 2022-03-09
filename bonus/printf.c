@@ -6,7 +6,7 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/08 16:59:41 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/02/14 19:14:04 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/03/09 16:54:30 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,31 +15,39 @@
 
 int ft_printf(const char *format, ...)
 {
-	int *data_spec;
-	char *take;
-	int		runner;
-	int		printed;
-	va_list	arg_ptr;
+	t_arginfo	arginfo;
+	char 		*take;
+	int			runner;
+	int			printed;
+	va_list		arg_ptr;
 
+	arginfo.width = 0;
+	arginfo.printed = 0;
 	runner = 0;
 	printed = 0;
 	va_start(arg_ptr, format);
-	
 	while (format[runner] != '\0')
 	{
-//		printf("The first print!: %c\n", format[runner]);
 		if (format[runner] == '%')
 		{	
-			take = ft_substr(format, runner + 1, ft_strlen(format) + 1);
-			data_spec = check_flags(take);
-			printed += data_spec[0];
+			take = ft_substr(format, ++runner, ft_strlen(format) + 1);
+			check_flags(take, &arginfo);
 			free(take);
 			take = NULL;
-			printed += print_arg(format[runner + data_spec[1]], arg_ptr);
+			if (arginfo.width != 1)
+				runner += num_len(arginfo.width) + 1;
+			else
+				runner++;
+			printed += def_spec(format[runner], arg_ptr);
+			arginfo.width = arginfo.width - 2;
+			while (arginfo.width-- > 0)
+				printed += write(1, " ", 1);
 			runner++;
 		}
 		else
+		{
 			printed += write(1, &format[runner++], 1);
+		}
 	}
 	return (printed);
 }
