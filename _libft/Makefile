@@ -6,20 +6,23 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/11 13:48:57 by fhiedi            #+#    #+#              #
-#    Updated: 2022/07/11 14:48:16 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/07/12 21:05:00 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
-OBJ_FOLDER = obj
-
 SRC = ft_isalpha.c \
+	  ft_tolower.c \
+	  ft_toupper.c \
+	  ft_strchr.c \
+	  ft_strrchr.c
 
+OBJ_FOLDER = obj
 OBJ = $(SRC:%.c=$(OBJ_FOLDER)/%.o)
 
-CC = clang
-CFLAGS = -Wall -Wextra -Werror -fsanitize=address
+CC = gcc
+CFLAGS = -Wall -Wextra -Werror
 
 REQS = libft.h Makefile
 
@@ -28,13 +31,14 @@ REQS = libft.h Makefile
 all: $(NAME)
 
 $(NAME): $(OBJ_FOLDER) $(OBJ)
-	ar rcs $(NAME) $(OBJ)
+	ar rcs $(NAME) $(OBJ_FOLDER)/*
 
 $(OBJ_FOLDER):
 	mkdir $(OBJ_FOLDER)
 
 $(OBJ_FOLDER)/%.o: %.c $(REQS)
 	$(CC) -c $(CFLAGS) $< -o $@
+
 
 clean:
 	rm -rf $(OBJ_FOLDER)
