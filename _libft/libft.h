@@ -6,13 +6,14 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/11 14:05:23 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/07/13 20:34:12 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/07/14 19:55:09 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <string.h>
+# include <stdlib.h>
 
 int ft_isalpha(int c);
 int ft_tolower(int c);

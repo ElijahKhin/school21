@@ -6,7 +6,7 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/13 20:15:51 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/07/13 20:39:51 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/07/14 21:46:19 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ size_t ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	tmp_size = (int)dstsize;
 	tmp_src = (char *)src;
 	if (dstsize == 0)
+		return (0);
+	if (!dst || !src)
 		return (0);
 	while (tmp_size-- -1 > 0 && tmp_src)
 		*dst++ = *tmp_src++;
