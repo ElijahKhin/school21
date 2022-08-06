@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/11 13:48:57 by fhiedi            #+#    #+#              #
-#    Updated: 2022/07/13 20:25:41 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/07/20 20:45:40 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,9 @@ SRC = ft_isalpha.c \
 	  ft_bzero.c \
 	  ft_memcpy.c \
 	  ft_memmove.c \
-	  ft_strlcpy.c
+	  ft_strlcpy.c \
+	  ft_strlcat.c \
+	  ft_strncmp.c
 OBJ_FOLDER = obj
 OBJ = $(SRC:%.c=$(OBJ_FOLDER)/%.o)
 

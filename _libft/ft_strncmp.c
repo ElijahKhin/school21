@@ -1,28 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/13 19:35:23 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/07/14 21:28:47 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/07/20 19:36:22 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/07/20 20:34:24 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void	*dst, const void *src, size_t n)
+int ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	unsigned char	*tmp_src;
-	unsigned char	*tmp_dst;
+	unsigned char *tmp1;
+	unsigned char *tmp2;
+	int	calc;
 	
-	if (dst && src)
+
+	tmp1 = (unsigned char *)s1;
+	tmp2 = (unsigned char *)s2;
+	
+	if (n == 0)
+		return (0);
+	while (*tmp1 && *tmp2 && n > 0)
 	{
-		tmp_src = (void *)src;
-		tmp_dst = (void *)dst;
-		while (n-- > 0)
-			*tmp_dst++ = *tmp_src++;
+		calc = *tmp1++ - *tmp2++;
+		if (calc != 0)
+			return (calc);
+		n--;
 	}
-	return (dst);
+	if (n > 0)
+		calc = *tmp1 - *tmp2;
+	return(calc);
 }

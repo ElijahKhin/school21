@@ -6,13 +6,14 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/11 14:05:23 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/07/13 20:34:12 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/07/20 20:45:50 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <string.h>
+# include <stdlib.h>
 
 int ft_isalpha(int c);
 int ft_tolower(int c);
@@ -29,5 +30,7 @@ void *ft_memset(void *b, int c, size_t len);
 void *ft_memcpy(void *dst, const void *src, size_t n);
 void *ft_memmove(void *dst, const void *src, size_t len);
 size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);
+size_t ft_strlcat(char *dst, const char *src, size_t dstsize);
+int	ft_strncmp(const char *s1, const char *s2, size_t n);
 
 #endif
