@@ -1,0 +1,15 @@
+#include <iostream>
+
+#ifndef
+# define CONTACT_HHP
+
+class Contact {
+public:
+	std::string index;
+	std::string first_name;
+	std::string last_name;
+	std::string nickname;
+	std::string darkest_secret;
+};
+
+#endif
