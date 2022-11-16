@@ -1,5 +1,5 @@
-NAME = hi_this_is_brain 
-SRC = main.cpp 
+NAME = harl 
+SRC = main.cpp Harl.cpp
 OBJ = $(SRC:.cpp=.o)
 
 CLR = c++
@@ -14,7 +14,7 @@ $(NAME): $(OBJ)
 	@$(CLR) $(FLAGS) $^ -o $(NAME)
 	@printf "Compiling source files %-30s\n" "... done ⚡️⚡️⚡️" 
 
-%.o: %.cpp Makefile 
+%.o: %.cpp Makefile Harl.hpp 
 	@printf "Compiling source files... %-30s\r" $@ 
 	@$(CLR) $(FLAGS) -c $< -o $@
 
