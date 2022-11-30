@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/24 10:06:48 by fhiedi            #+#    #+#              #
-#    Updated: 2022/11/25 16:39:07 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/11/30 10:31:14 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,9 @@ SRC = \
 	ft_isprint.c ft_strlen.c ft_strchr.c \
 	ft_strrchr.c ft_strncmp.c ft_bzero.c \
 	ft_memset.c ft_memcpy.c ft_memchr.c \
-	ft_memcmp.c ft_memmove.c ft_strnstr.c
+	ft_memcmp.c ft_memmove.c ft_strnstr.c \
+	ft_strlcpy.c ft_strlcat.c ft_atoi.c \
+	ft_calloc.c
 
 
 OBJ_FOLDER = obj
@@ -43,10 +45,9 @@ NO_COLOR = \x1b[0m
 all: $(NAME)
 
 $(NAME): $(OBJ_FOLDER) $(OBJ)
-	@echo "\n"
 	@ar rc $@ obj/*	
 	@ranlib $(NAME)
-	@printf "$(GREEN)%s is successfully assembled! 🥂" $(NAME)
+	@printf "$(CURSIVE)Compiling source files 🚀... %s is successfully assembled! 🥂      " $(NAME)
 	@echo "\n"
 
 $(OBJ_FOLDER):
@@ -54,7 +55,7 @@ $(OBJ_FOLDER):
 
 $(OBJ_FOLDER)/%.o: %.c libft.h Makefile
 	@$(CMPL) -c $(FLAGS) $< -o $@
-	@printf "$(CURSIVE)Compiling source files 🚀...  $(YELLOW)%-13s ---> $(NO_COLOR)%17.33s ✅\r" $< $@
+	@printf "$(CURSIVE)Compiling source files 🚀...  $(YELLOW)%-13s ---> $(NO_COLOR)%17.33s ✅\n\n" $< $@
 
 clean:
 	@echo "$(RED)Cleaning libft objects..."

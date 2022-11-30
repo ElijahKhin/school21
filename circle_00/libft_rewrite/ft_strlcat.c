@@ -1,33 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strnstr.c                                       :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/28 17:12:22 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/11/29 09:59:28 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/11/29 10:45:53 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/11/29 16:27:53 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strnstr(const char *haystack, const char *needle, size_t len) 
-{   
+size_t  ft_strlcat(char *dst, const char *src, size_t dstsize)
+{
     size_t i;
-    size_t len_of_needle;
+    size_t allowed_len;
+    size_t init_dst_len;
 
     i = 0;
-    len_of_needle = ft_strlen(needle);
-    if (needle[0] == '\0')
-        return (char *)haystack;
-    while (ft_strlen((char *)haystack + i) >= len_of_needle && len > 0) 
+    init_dst_len = ft_strlen(dst);
+    allowed_len = dstsize - init_dst_len - 1;
+    if (init_dst_len + 1 > dstsize)
+        return dstsize + ft_strlen(src);
+    while (allowed_len-- > 0 && src[i])
     {
-        if (!ft_memcmp(haystack + i, needle, len_of_needle) && len_of_needle <= len)
-            return ((char *)haystack + i);
+        dst[init_dst_len+i] = src[i];
         i++;
-        len--;
+        dst[init_dst_len+i] = '\0';
     }
-    return NULL;
+    return init_dst_len + ft_strlen(src);
 }
-
