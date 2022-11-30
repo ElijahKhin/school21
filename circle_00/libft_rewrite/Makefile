@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/24 10:06:48 by fhiedi            #+#    #+#              #
-#    Updated: 2022/11/30 10:31:14 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/11/30 19:02:54 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ SRC = \
 	ft_memset.c ft_memcpy.c ft_memchr.c \
 	ft_memcmp.c ft_memmove.c ft_strnstr.c \
 	ft_strlcpy.c ft_strlcat.c ft_atoi.c \
-	ft_calloc.c
+	ft_calloc.c ft_strdup.c ft_substr.c
 
 
 OBJ_FOLDER = obj
@@ -55,7 +55,7 @@ $(OBJ_FOLDER):
 
 $(OBJ_FOLDER)/%.o: %.c libft.h Makefile
 	@$(CMPL) -c $(FLAGS) $< -o $@
-	@printf "$(CURSIVE)Compiling source files 🚀...  $(YELLOW)%-13s ---> $(NO_COLOR)%17.33s ✅\n\n" $< $@
+	@printf "$(CURSIVE)Compiling source files 🚀...  $(YELLOW)%-13s ---> $(NO_COLOR)%17.33s ✅\r" $< $@
 
 clean:
 	@echo "$(RED)Cleaning libft objects..."

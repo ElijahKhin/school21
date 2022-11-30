@@ -1,19 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/25 10:46:24 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/11/30 11:04:49 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/11/30 10:39:42 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/11/30 10:52:48 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int c) 
-{
-    if (c >= 'a' && c <= 'z')
-        return (c - 32); 
-    return (c);
-}
+#include "libft.h"
 
+char *ft_strdup(const char *s1) 
+{
+    int i;
+    int len_of_s1;
+    char *ptr_to_s1;
+
+    i = -1;
+    len_of_s1 = ft_strlen(s1);
+    ptr_to_s1 = malloc(sizeof(char) * (len_of_s1 + 1));
+    if (!ptr_to_s1)
+        return NULL; 
+    while (len_of_s1 > i++) 
+        ptr_to_s1[i] = s1[i];
+    return ptr_to_s1;
+}
