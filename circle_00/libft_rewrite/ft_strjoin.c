@@ -1,31 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/30 18:17:41 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/12/01 10:17:08 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/12/01 10:17:41 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/12/01 10:36:27 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
-char *ft_substr(char const *s, unsigned int start, size_t len)
+char *ft_strjoin(char const *s1, char const *s2)
 {
     int i;
-    char *sub_str;
+    char *new;
 
     i = 0;
-    if (ft_strlen(s) < start)
-        return malloc(1);
-    else
-        sub_str = malloc(1);
-    if (!sub_str || !s)
+    new = malloc(1);
+    if (!new || !s1 || !s2)
         return NULL;
-    while (len-- > 0 && s[start])
-        sub_str[i++] = s[start++];
-    sub_str[i] = '\0';
-    return sub_str;
+    while (*s1)
+       new[i++] = *s1++;
+    while(*s2)
+        new[i++] = *s2++;
+    new[i] = '\0';
+    return new;
 }

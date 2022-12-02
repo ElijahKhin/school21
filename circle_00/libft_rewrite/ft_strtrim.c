@@ -1,31 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_substr.c                                        :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/30 18:17:41 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/12/01 10:17:08 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/12/01 10:37:26 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/12/01 10:56:49 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_substr(char const *s, unsigned int start, size_t len)
+char *ft_strtrim(char const *s1, char const *set)
 {
     int i;
-    char *sub_str;
+    char *new;
 
     i = 0;
-    if (ft_strlen(s) < start)
-        return malloc(1);
-    else
-        sub_str = malloc(1);
-    if (!sub_str || !s)
+    new = malloc(1);
+    if (!s1 || !set || !new)
         return NULL;
-    while (len-- > 0 && s[start])
-        sub_str[i++] = s[start++];
-    sub_str[i] = '\0';
-    return sub_str;
+    while (*s1)
+    {
+        if (!ft_strchr(set, *s1))
+            new[i++] = *s1;
+        s1++;
+    }
+    new[i] = '\0';
+    return new;
 }

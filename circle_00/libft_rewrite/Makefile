@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/24 10:06:48 by fhiedi            #+#    #+#              #
-#    Updated: 2022/11/30 19:02:54 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/12/01 15:39:37 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,8 @@ SRC = \
 	ft_memset.c ft_memcpy.c ft_memchr.c \
 	ft_memcmp.c ft_memmove.c ft_strnstr.c \
 	ft_strlcpy.c ft_strlcat.c ft_atoi.c \
-	ft_calloc.c ft_strdup.c ft_substr.c
+	ft_calloc.c ft_strdup.c ft_substr.c \
+	ft_strjoin.c ft_strtrim.c ft_split.c
 
 
 OBJ_FOLDER = obj
