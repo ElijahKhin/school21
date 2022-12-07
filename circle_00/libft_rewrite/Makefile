@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/24 10:06:48 by fhiedi            #+#    #+#              #
-#    Updated: 2022/12/01 15:39:37 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/12/07 14:46:53 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,6 +40,7 @@ GRAY = \033[2;37m
 CURSIVE = \033[3m
 NO_COLOR = \x1b[0m
 
+
 .PHONY: all clean fclean re
 
 
@@ -48,7 +49,7 @@ all: $(NAME)
 $(NAME): $(OBJ_FOLDER) $(OBJ)
 	@ar rc $@ obj/*	
 	@ranlib $(NAME)
-	@printf "$(CURSIVE)Compiling source files 🚀... %s is successfully assembled! 🥂      " $(NAME)
+	@printf "$(CURSIVE)Compiling source files 🚀...  %s is successfully assembled! 🥂      " $(NAME)
 	@echo "\n"
 
 $(OBJ_FOLDER):
@@ -56,7 +57,7 @@ $(OBJ_FOLDER):
 
 $(OBJ_FOLDER)/%.o: %.c libft.h Makefile
 	@$(CMPL) -c $(FLAGS) $< -o $@
-	@printf "$(CURSIVE)Compiling source files 🚀...  $(YELLOW)%-13s ---> $(NO_COLOR)%17.33s ✅\r" $< $@
+	@printf "$(CURSIVE)Compiling source files 🚀... $(YELLOW)%-13s ---> $(NO_COLOR)%17.33s ✅\r" $< $@
 
 clean:
 	@echo "$(RED)Cleaning libft objects..."
@@ -74,4 +75,6 @@ leaks:
 	@gcc units.c -L. $(NAME) -o units
 	@leaks --atExit -- ./units
 
+count_files:
+	$(FILES_C)
 
