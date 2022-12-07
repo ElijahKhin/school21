@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/24 10:06:48 by fhiedi            #+#    #+#              #
-#    Updated: 2022/12/07 14:46:53 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/12/07 15:40:19 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,7 +74,3 @@ re: fclean all
 leaks:
 	@gcc units.c -L. $(NAME) -o units
 	@leaks --atExit -- ./units
-
-count_files:
-	$(FILES_C)
-
