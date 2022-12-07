@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/24 10:06:48 by fhiedi            #+#    #+#              #
-#    Updated: 2022/12/07 15:40:19 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/12/07 20:04:11 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,8 @@ SRC = \
 	ft_memcmp.c ft_memmove.c ft_strnstr.c \
 	ft_strlcpy.c ft_strlcat.c ft_atoi.c \
 	ft_calloc.c ft_strdup.c ft_substr.c \
-	ft_strjoin.c ft_strtrim.c ft_split.c
+	ft_strjoin.c ft_strtrim.c ft_split.c \
+	ft_itoa.c
 
 
 OBJ_FOLDER = obj
@@ -71,6 +72,3 @@ fclean: clean
 
 re: fclean all
 
-leaks:
-	@gcc units.c -L. $(NAME) -o units
-	@leaks --atExit -- ./units

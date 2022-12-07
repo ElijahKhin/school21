@@ -1,32 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/01 10:37:26 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/12/07 19:52:26 by fhiedi           ###   ########.fr       */
+/*   Created: 2022/12/07 16:14:13 by fhiedi            #+#    #+#             */
+/*   Updated: 2022/12/07 19:30:51 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strtrim(char const *s1, char const *set)
+static void	recursive_convert_to_str(char **itoa, int n)
 {
-	int		i;
-	char	*new;
+	static int	index;
 
-	i = 0;
-	new = malloc(1);
-	if (!s1 || !set || !new)
-		return (NULL);
-	while (*s1)
+	index = 0;
+	if (n < 0)
 	{
-		if (!ft_strchr(set, *s1))
-			new[i++] = *s1;
-		s1++;
+		(*itoa)[index++] = '-';
+		n *= -1;
 	}
-	new[i] = '\0';
-	return (new);
+	if (n >= 10)
+		recursive_convert_to_str(itoa, n / 10);
+	(*itoa)[index++] = n % 10 + 48;
+	(*itoa)[index] = '\0';
+}
+
+char	*ft_itoa(int n)
+{
+	char	*itoa;
+
+	if (n == MIN_INT)
+		return (ft_substr("-2147483648", 0, 12));
+	itoa = malloc(12);
+	recursive_convert_to_str(&itoa, n);
+	return (itoa);
 }

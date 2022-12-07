@@ -6,19 +6,19 @@
 /*   By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/25 13:28:37 by fhiedi            #+#    #+#             */
-/*   Updated: 2022/11/25 13:52:23 by fhiedi           ###   ########.fr       */
+/*   Updated: 2022/12/07 19:21:02 by fhiedi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
-    size_t i;
-    char *twin;
+	size_t	i;
+	char	*twin;
 
-    twin = s;
-    i = 0;
-    while (n-- > 0)
-        twin[i++] = 0;
+	twin = s;
+	i = 0;
+	while (n-- > 0)
+		twin[i++] = 0;
 }
