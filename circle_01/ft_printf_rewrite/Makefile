@@ -6,13 +6,14 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/23 17:18:54 by fhiedi            #+#    #+#              #
-#    Updated: 2022/03/22 18:54:01 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/12/08 20:48:27 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
-SRC = printf.c get_info.c padding.c flags.c width_precision.c \
-	  additional_func.c ./includes/char_utils.c ./includes/hex_utils.c ./includes/nbr_utils.c
+SRC = printf.c get_info.c padding.c \
+	  flags.c width_precision.c additional_func.c \
+	  ./includes/char_utils.c ./includes/hex_utils.c ./includes/nbr_utils.c
 
 OBJ = $(SRC:.c=.o)
 
