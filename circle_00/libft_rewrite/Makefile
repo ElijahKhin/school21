@@ -6,7 +6,7 @@
 #    By: fhiedi <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/24 10:06:48 by fhiedi            #+#    #+#              #
-#    Updated: 2022/12/07 20:04:11 by fhiedi           ###   ########.fr        #
+#    Updated: 2022/12/08 19:46:04 by fhiedi           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,8 +23,12 @@ SRC = \
 	ft_strlcpy.c ft_strlcat.c ft_atoi.c \
 	ft_calloc.c ft_strdup.c ft_substr.c \
 	ft_strjoin.c ft_strtrim.c ft_split.c \
-	ft_itoa.c
-
+	ft_itoa.c ft_strmapi.c ft_striteri.c \
+	ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c \
+	ft_putnbr_fd.c ft_lstnew.c ft_lstadd_front.c \
+	ft_lstsize.c ft_lstlast.c ft_lstadd_back.c \
+	ft_lstdelone.c ft_lstclear.c ft_lstiter.c \
+	ft_lstmap.c
 
 OBJ_FOLDER = obj
 OBJ = $(SRC:%.c=$(OBJ_FOLDER)/%.o)
@@ -42,7 +46,7 @@ CURSIVE = \033[3m
 NO_COLOR = \x1b[0m
 
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bonus
 
 
 all: $(NAME)
@@ -50,7 +54,7 @@ all: $(NAME)
 $(NAME): $(OBJ_FOLDER) $(OBJ)
 	@ar rc $@ obj/*	
 	@ranlib $(NAME)
-	@printf "$(CURSIVE)Compiling source files 🚀...  %s is successfully assembled! 🥂      " $(NAME)
+	@printf "$(CURSIVE)Compiling source files 🚀...  %s is successfully assembled! 🥂%-17s" $(NAME) ""
 	@echo "\n"
 
 $(OBJ_FOLDER):
@@ -70,5 +74,6 @@ fclean: clean
 	@rm -rf *.a a.out .*.swp .DS_Store $(NAME) units
 	@echo "$(GRAY)$(CURSIVE)---libft staff is completely cleaned!\n"
 
-re: fclean all
+re: fclean bonus
 
+bonus: all
