@@ -1,5 +1,4 @@
 .DS_Store
 .*.swp
 a.out
-*.o
 circle_00/libft_rewrite/tester
