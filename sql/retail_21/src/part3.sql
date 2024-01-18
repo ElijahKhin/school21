@@ -1,0 +1,8 @@
+CREATE ROLE admin
+    WITH
+    LOGIN
+    SUPERUSER
+    PASSWORD 'qwerty1234';
+
+CREATE ROLE read_only;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO read_only;

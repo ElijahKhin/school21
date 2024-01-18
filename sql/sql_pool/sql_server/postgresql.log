@@ -1,0 +1,544 @@
+2023-05-29 16:39:19.543 MSK [26436] LOG:  starting PostgreSQL 15.3 on aarch64-apple-darwin21.6.0, compiled by Apple clang version 14.0.0 (clang-1400.0.29.102), 64-bit
+2023-05-29 16:39:19.544 MSK [26436] LOG:  listening on IPv6 address "::1", port 1899
+2023-05-29 16:39:19.544 MSK [26436] LOG:  listening on IPv4 address "127.0.0.1", port 1899
+2023-05-29 16:39:19.545 MSK [26436] LOG:  listening on Unix socket "/tmp/.s.PGSQL.1899"
+2023-05-29 16:39:19.546 MSK [26439] LOG:  database system was shut down at 2023-05-29 16:39:19 MSK
+2023-05-29 16:39:19.547 MSK [26436] LOG:  database system is ready to accept connections
+2023-05-29 16:44:19.540 MSK [26437] LOG:  checkpoint starting: time
+2023-05-29 16:45:58.279 MSK [26437] LOG:  checkpoint complete: wrote 980 buffers (6.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=98.733 s, sync=0.005 s, total=98.740 s; sync files=266, longest=0.001 s, average=0.001 s; distance=4603 kB, estimate=4603 kB
+2023-05-29 18:13:39.184 MSK [26437] LOG:  checkpoint starting: time
+2023-05-29 18:13:48.352 MSK [26437] LOG:  checkpoint complete: wrote 91 buffers (0.6%); 1 WAL file(s) added, 0 removed, 0 recycled; write=9.149 s, sync=0.004 s, total=9.168 s; sync files=54, longest=0.001 s, average=0.001 s; distance=374 kB, estimate=4180 kB
+2023-05-29 18:19:27.520 MSK [28532] ERROR:  column "Kazan" does not exist at character 46
+2023-05-29 18:19:27.520 MSK [28532] STATEMENT:  select name, age from person
+	where address = "Kazan";
+2023-05-29 18:30:55.320 MSK [28614] ERROR:  syntax error at or near "select" at character 22
+2023-05-29 18:30:55.320 MSK [28614] STATEMENT:  SELECT * FROM person
+	select * from person;
+2023-05-29 18:32:17.519 MSK [28614] ERROR:  syntax error at or near "select" at character 90
+2023-05-29 18:32:17.519 MSK [28614] STATEMENT:  select name, age from person where address = 'Kazan' and gender = 'female' order by name
+	select name, age from person where address = 'Kazan' and gender = 'female' order by name;
+2023-05-29 18:38:39.311 MSK [26437] LOG:  checkpoint starting: time
+2023-05-29 18:38:39.621 MSK [26437] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.305 s, sync=0.001 s, total=0.310 s; sync files=1, longest=0.001 s, average=0.001 s; distance=22 kB, estimate=3765 kB
+2023-05-29 18:40:55.353 MSK [28614] ERROR:  syntax error at or near "pwd" at character 1
+2023-05-29 18:40:55.353 MSK [28614] STATEMENT:  pwd
+	ls
+	-d
+	-D
+	ls
+	l
+	pwd
+	ls
+	/ls
+	select * pizzeria;
+2023-05-29 18:58:39.569 MSK [26437] LOG:  checkpoint starting: time
+2023-05-29 18:58:39.675 MSK [26437] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.001 s, total=0.106 s; sync files=1, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=3388 kB
+2023-05-29 18:59:08.302 MSK [28614] ERROR:  syntax error at or near "or" at character 86
+2023-05-29 18:59:08.302 MSK [28614] STATEMENT:  select * from person_visits where visit_date between ('2022-01-06' and '2022-01-09') or pizzeria_id = 2;
+2023-05-29 18:59:53.141 MSK [28614] ERROR:  syntax error at or near "andpizzeria_id" at character 86
+2023-05-29 18:59:53.141 MSK [28614] STATEMENT:  select * from person_visits where visit_date between ('2022-01-06' and '2022-01-09') andpizzeria_id = 2;
+2023-05-29 18:59:57.274 MSK [28614] ERROR:  invalid input syntax for type boolean: "2022-01-06" at character 55
+2023-05-29 18:59:57.274 MSK [28614] STATEMENT:  select * from person_visits where visit_date between ('2022-01-06' and '2022-01-09') and pizzeria_id = 2;
+2023-05-29 19:17:29.694 MSK [28614] ERROR:  syntax error at or near "pwd" at character 1
+2023-05-29 19:17:29.694 MSK [28614] STATEMENT:  pwd
+	ls
+	pwd
+	ls
+	'd
+	\d
+	\d
+	'
+	select * from person
+	;
+2023-05-29 19:19:33.846 MSK [28614] ERROR:  operator does not exist: character varying + unknown at character 13
+2023-05-29 19:19:33.846 MSK [28614] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-05-29 19:19:33.846 MSK [28614] STATEMENT:  select name + '(', age+1, gender, address
+	from person;
+2023-05-29 19:24:48.820 MSK [28614] ERROR:  operator does not exist: character varying + unknown at character 13
+2023-05-29 19:24:48.820 MSK [28614] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-05-29 19:24:48.820 MSK [28614] STATEMENT:  select name + ' ('
+	from person;
+2023-05-29 19:26:31.232 MSK [28614] ERROR:  column "person" does not exist at character 67
+2023-05-29 19:26:31.232 MSK [28614] STATEMENT:  SELECT
+	  *
+	FROM
+	  INFORMATION_SCHEMA.COLUMNS
+	WHERE
+	  TABLE_NAME = person;
+2023-05-29 19:27:34.074 MSK [28614] ERROR:  syntax error at or near "," at character 20
+2023-05-29 19:27:34.074 MSK [28614] STATEMENT:  select cast(varchar, name) + ' ('
+	from person;
+2023-05-29 19:27:53.182 MSK [28614] ERROR:  column "varchar" does not exist at character 16
+2023-05-29 19:27:53.182 MSK [28614] STATEMENT:  select convert(varchar, name) + ' ('
+	from person;
+2023-05-29 19:28:05.497 MSK [28614] ERROR:  column "varchar" does not exist at character 16
+2023-05-29 19:28:05.497 MSK [28614] STATEMENT:  select convert(varchar, name)
+	from person;
+2023-05-29 19:29:37.935 MSK [28614] ERROR:  operator does not exist: character varying + unknown at character 30
+2023-05-29 19:29:37.935 MSK [28614] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-05-29 19:29:37.935 MSK [28614] STATEMENT:  select cast(name as varchar) + '('
+	from person;
+2023-05-29 19:35:28.533 MSK [28614] ERROR:  syntax error at or near "," at character 38
+2023-05-29 19:35:28.533 MSK [28614] STATEMENT:  select 
+	name || 
+	' (age:' + 
+	cast(age, varchar) +
+	',gender:''' +
+	gender + 
+	''',address:''' +
+	address + 
+	''')'
+	from person;
+2023-05-29 19:36:01.079 MSK [28614] ERROR:  syntax error at or near "," at character 39
+2023-05-29 19:36:01.079 MSK [28614] STATEMENT:  select 
+	name || 
+	' (age:' || 
+	cast(age, varchar) ||
+	',gender:''' ||
+	gender || 
+	''',address:''' ||
+	address || 
+	''')'
+	from person;
+2023-05-29 19:36:28.560 MSK [28614] ERROR:  syntax error at or near "," at character 37
+2023-05-29 19:36:28.560 MSK [28614] STATEMENT:  select 
+	name || ' (age:' || cast(age, varchar) || ',gender:''' || gender || ''',address:''' || address || ''')'
+	from person;
+2023-05-29 19:40:23.536 MSK [28614] ERROR:  syntax error at or near "pwd" at character 1
+2023-05-29 19:40:23.536 MSK [28614] STATEMENT:  pwd
+	ls
+	[A
+	select * from person
+	;
+2023-05-29 19:45:57.181 MSK [28614] ERROR:  syntax error at or near "select" at character 8
+2023-05-29 19:45:57.181 MSK [28614] STATEMENT:  select
+	select ;
+2023-05-29 19:48:39.593 MSK [26437] LOG:  checkpoint starting: time
+2023-05-29 19:48:39.701 MSK [26437] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.109 s; sync files=1, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=3049 kB
+2023-05-29 19:58:29.108 MSK [28614] ERROR:  syntax error at or near "(" at character 10
+2023-05-29 19:58:29.108 MSK [28614] STATEMENT:  select *
+	(
+		select distinct person_id 
+		from person_order 
+		where (
+			menu_id = 13 or 
+			menu_id = 14 or 
+			menu_id = 18) 
+		and order_date = '2022-01-07'
+	) as NAME 
+	from person;
+2023-05-29 19:58:45.792 MSK [28614] ERROR:  syntax error at or near "select" at character 11
+2023-05-29 19:58:45.792 MSK [28614] STATEMENT:  select *
+		select distinct person_id 
+		from person_order 
+		where (
+			menu_id = 13 or 
+			menu_id = 14 or 
+			menu_id = 18) 
+		and order_date = '2022-01-07' as NAME 
+	from person;
+2023-05-29 20:00:07.601 MSK [28614] ERROR:  syntax error at or near "select" at character 11
+2023-05-29 20:00:07.601 MSK [28614] STATEMENT:  select *
+		select person_id 
+		from person_order 
+		where (
+			menu_id = 13 or 
+			menu_id = 14 or 
+			menu_id = 18) 
+		and order_date = '2022-01-07' as NAME 
+	from person;
+2023-05-29 20:01:48.439 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:01:48.439 MSK [28614] STATEMENT:  select
+	(
+		select distinct person_id 
+		from person_order 
+		where (
+			menu_id = 13 or 
+			menu_id = 14 or 
+			menu_id = 18) 
+		and order_date = '2022-01-07'
+	) as name
+	from person;
+2023-05-29 20:03:10.409 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:03:10.409 MSK [28614] STATEMENT:  select
+	(
+		select distinct person_id 
+		from person_order 
+		where (
+			menu_id = 13 or 
+			menu_id = 14 or 
+			menu_id = 18) 
+		and order_date = '2022-01-07'
+	) as id
+	from person;
+2023-05-29 20:12:37.216 MSK [28614] ERROR:  syntax error at or near "select" at character 20
+2023-05-29 20:12:37.216 MSK [28614] STATEMENT:  select  person_id (select name from person_name) 
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:12:54.109 MSK [28614] ERROR:  syntax error at or near "select" at character 20
+2023-05-29 20:12:54.109 MSK [28614] STATEMENT:  select  person_id (select name from person_name) as name
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:14:02.028 MSK [28614] ERROR:  syntax error at or near "select" at character 20
+2023-05-29 20:14:02.028 MSK [28614] STATEMENT:  select  person_id (select name from person_name) as name
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:14:19.992 MSK [28614] ERROR:  relation "person_name" does not exist at character 38
+2023-05-29 20:14:19.992 MSK [28614] STATEMENT:  select  person_id, (select name from person_name) as name
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:15:08.204 MSK [28614] ERROR:  relation "person_name" does not exist at character 19
+2023-05-29 20:15:08.204 MSK [28614] STATEMENT:  select name 
+	from person_name;
+2023-05-29 20:15:45.086 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:15:45.086 MSK [28614] STATEMENT:  select  person_id, (select name from person) 
+	
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:15:54.074 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:15:54.074 MSK [28614] STATEMENT:  select  person_id, (select name from person) 
+	
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:16:27.030 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:16:27.030 MSK [28614] STATEMENT:  select  person_id, (select name from person) as name
+	
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:29:31.246 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:29:31.246 MSK [28614] STATEMENT:  select  (select name from person) as name
+	
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:31:55.702 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:31:55.702 MSK [28614] STATEMENT:  select  (select distinct name from person) as name
+	
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:32:46.266 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:32:46.266 MSK [28614] STATEMENT:  select  person_id, (select name from person limit 2) as name
+	
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:33:04.214 MSK [28614] ERROR:  subquery must return only one column at character 20
+2023-05-29 20:33:04.214 MSK [28614] STATEMENT:  select  person_id, (select person_id, name from person limit 1) as name
+	
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:33:18.117 MSK [28614] ERROR:  subquery must return only one column at character 20
+2023-05-29 20:33:18.117 MSK [28614] STATEMENT:  select  person_id, (select person_id, name from person limit 1) as person_i, name
+	
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:34:03.129 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:34:03.129 MSK [28614] STATEMENT:  select  person_id, (select name from person) as name
+	from person_order 
+	where (
+		menu_id = 13 or 
+		menu_id = 14 or 
+		menu_id = 18
+	) 
+	and order_date = '2022-01-07';
+2023-05-29 20:39:39.956 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:39:39.956 MSK [28614] STATEMENT:  select name
+	from person
+	where id = (
+		select person_id as name
+		from person_order 
+		where (
+			menu_id = 13 or 
+			menu_id = 14 or 
+			menu_id = 18
+		) 
+		and order_date = '2022-01-07'
+	);
+2023-05-29 20:46:45.124 MSK [28614] ERROR:  missing FROM-clause entry for table "person_order" at character 21
+2023-05-29 20:46:45.124 MSK [28614] STATEMENT:  select person.name, person_order.person_id
+	from person;
+2023-05-29 20:48:39.521 MSK [26437] LOG:  checkpoint starting: time
+2023-05-29 20:48:39.629 MSK [26437] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.108 s; sync files=1, longest=0.001 s, average=0.001 s; distance=8 kB, estimate=2745 kB
+2023-05-29 20:48:52.194 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:48:52.194 MSK [28614] STATEMENT:  select (select person.name from person) as name, person_order.person_id
+	from person, person_order;
+2023-05-29 20:49:07.254 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:49:07.254 MSK [28614] STATEMENT:  select (select person.name from person) as name, person_order.person_id
+	from person_order;
+2023-05-29 20:57:14.726 MSK [28614] ERROR:  syntax error at or near "person_id" at character 34
+2023-05-29 20:57:14.726 MSK [28614] STATEMENT:  select name, id = (select unique(person_id) from person_order)
+	from person;
+2023-05-29 20:57:26.459 MSK [28614] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-29 20:57:26.459 MSK [28614] STATEMENT:  select name, id = (select person_id from person_order)
+	from person;
+2023-05-29 20:58:15.862 MSK [28614] ERROR:  syntax error at or near "w" at character 1
+2023-05-29 20:58:15.862 MSK [28614] STATEMENT:  w
+	pwd
+	ls
+	l
+	select * from person_order
+	;
+2023-05-29 21:04:49.748 MSK [28614] ERROR:  syntax error at or near "where" at character 76
+2023-05-29 21:04:49.748 MSK [28614] STATEMENT:  select som.person_id, person.name
+	from (select person_id from person order where (menu_id = 13)) as som, person;
+2023-05-29 21:06:04.381 MSK [28614] ERROR:  operator does not exist: character varying = boolean at character 35
+2023-05-29 21:06:04.381 MSK [28614] HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+2023-05-29 21:06:04.381 MSK [28614] STATEMENT:  select som.person_id, person.name = (person.id = som.person_id)
+	from (select person_id from person_order where (menu_id = 13)) as som, person;
+2023-05-29 21:21:08.983 MSK [28614] ERROR:  syntax error at or near "date" at character 1
+2023-05-29 21:21:08.983 MSK [28614] STATEMENT:  date
+	pwd
+	ls
+	select * from person_order
+	;
+2023-05-29 21:21:10.795 MSK [28614] ERROR:  syntax error at or near "pwd" at character 1
+2023-05-29 21:21:10.795 MSK [28614] STATEMENT:  pwd
+	ls
+	select * from person_order
+	;
+2023-05-29 21:21:13.053 MSK [28614] ERROR:  syntax error at or near "pwd" at character 1
+2023-05-29 21:21:13.053 MSK [28614] STATEMENT:  pwd
+	ls
+	select * from person_order
+	;
+2023-05-29 22:58:14.744 MSK [26437] LOG:  checkpoint starting: time
+2023-05-29 22:58:14.848 MSK [26437] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.001 s, total=0.105 s; sync files=1, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=2471 kB
+2023-05-30 13:53:21.908 MSK [30631] ERROR:  subquery in FROM must have an alias at character 50
+2023-05-30 13:53:21.908 MSK [30631] HINT:  For example, FROM (SELECT ...) [AS] foo.
+2023-05-30 13:53:21.908 MSK [30631] STATEMENT:  select NAME, (NAME = 'Denis') as check_name
+	from (
+		select (
+			select person.name 
+			from person 
+			where person.id = person_order.person_id
+		) as NAME
+		from person_order
+		where (
+			person_order.menu_id = 13 or
+			person_order.menu_id = 14 or
+			person_order.menu_id = 18
+		) and person_order.order_date = '2022-01-07'
+	);
+2023-05-30 13:53:33.922 MSK [30631] ERROR:  subquery in FROM must have an alias at character 18
+2023-05-30 13:53:33.922 MSK [30631] HINT:  For example, FROM (SELECT ...) [AS] foo.
+2023-05-30 13:53:33.922 MSK [30631] STATEMENT:  select NAME
+	from (
+		select (
+			select person.name 
+			from person 
+			where person.id = person_order.person_id
+		) as NAME
+		from person_order
+		where (
+			person_order.menu_id = 13 or
+			person_order.menu_id = 14 or
+			person_order.menu_id = 18
+		) and person_order.order_date = '2022-01-07'
+	);
+2023-05-30 13:56:26.753 MSK [30631] ERROR:  more than one row returned by a subquery used as an expression
+2023-05-30 13:56:26.753 MSK [30631] STATEMENT:  select (
+		select person.name 
+		from person 
+		where person.id = person_order.person_id
+	) as NAME,
+	(
+		select person.name = 'Denis'
+		from person 
+	) as check_name
+	from person_order
+	where (
+		person_order.menu_id = 13 or
+		person_order.menu_id = 14 or
+		person_order.menu_id = 18
+	) and person_order.order_date = '2022-01-07';
+2023-05-30 13:57:14.568 MSK [30631] ERROR:  column "name" does not exist at character 99
+2023-05-30 13:57:14.568 MSK [30631] STATEMENT:  select (
+		select person.name 
+		from person 
+		where person.id = person_order.person_id
+	) as NAME,
+	(NAME = 'Denis') as check_name
+	from person_order
+	where (
+		person_order.menu_id = 13 or
+		person_order.menu_id = 14 or
+		person_order.menu_id = 18
+	) and person_order.order_date = '2022-01-07';
+2023-05-30 13:57:16.520 MSK [30631] ERROR:  column "name" does not exist at character 99
+2023-05-30 13:57:16.520 MSK [30631] STATEMENT:  select (
+		select person.name 
+		from person 
+		where person.id = person_order.person_id
+	) as NAME,
+	(NAME = 'Denis') as check_name
+	from person_order
+	where (
+		person_order.menu_id = 13 or
+		person_order.menu_id = 14 or
+		person_order.menu_id = 18
+	) and person_order.order_date = '2022-01-07';
+2023-05-30 13:57:45.815 MSK [26437] LOG:  checkpoint starting: time
+2023-05-30 13:57:45.922 MSK [26437] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.108 s; sync files=1, longest=0.001 s, average=0.001 s; distance=8 kB, estimate=2225 kB
+2023-05-30 13:58:33.816 MSK [30631] ERROR:  syntax error at or near "ls" at character 1
+2023-05-30 13:58:33.816 MSK [30631] STATEMENT:  ls
+	pwd
+	ls
+	select name = 'Denis' from person
+	;
+2023-05-30 13:59:26.419 MSK [30631] ERROR:  column "Denis" does not exist at character 15
+2023-05-30 13:59:26.419 MSK [30631] STATEMENT:  select name = "Denis" from person;
+2023-05-30 14:00:22.503 MSK [30631] ERROR:  subquery in FROM must have an alias at character 18
+2023-05-30 14:00:22.503 MSK [30631] HINT:  For example, FROM (SELECT ...) [AS] foo.
+2023-05-30 14:00:22.503 MSK [30631] STATEMENT:  select name from (select (
+		select person.name 
+		from person 
+		where person.id = person_order.person_id
+	) as NAME,
+	(NAME = 'Denis') as check_name
+	from person_order
+	where (
+		person_order.menu_id = 13 or
+		person_order.menu_id = 14 or
+		person_order.menu_id = 18
+	) and person_order.order_date = '2022-01-07');
+2023-05-30 14:00:49.009 MSK [30631] ERROR:  column "name" does not exist at character 127
+2023-05-30 14:00:49.009 MSK [30631] STATEMENT:  select new_table.name from (select (
+		select person.name 
+		from person 
+		where person.id = person_order.person_id
+	) as NAME,
+	(NAME = 'Denis') as check_name
+	from person_order
+	where (
+		person_order.menu_id = 13 or
+		person_order.menu_id = 14 or
+		person_order.menu_id = 18
+	) and person_order.order_date = '2022-01-07') as new_table;
+2023-05-30 14:07:42.194 MSK [30631] ERROR:  syntax error at or near "when" at character 49
+2023-05-30 14:07:42.194 MSK [30631] STATEMENT:  select person.id, person.name, person.age
+	case
+		when person.age between 10 and 20 THEN 'interval #1'
+		when person.age between 21 and 23 THEN 'interval #2'
+		else 'interval #3'
+	end as interval_info
+	from person;
+2023-05-30 14:21:26.500 MSK [30631] ERROR:  syntax error at or near "(" at character 95
+2023-05-30 14:21:26.500 MSK [30631] STATEMENT:  select 
+	(
+		select person.name 
+		from person 
+		where person.id = pv.person_id
+	) as person_name
+	(
+		select pizzeria.name 
+		from person 
+		where pizzeria.id = pv.pizzeria_id
+	) as pizzeria_name
+	from (
+		select person_visits.person_id, person_visits.pizzeria_id
+		from person_visits
+		where person_visits.order_date between '2022-01-07' and '2022-01-09'
+	) as pv;
+2023-05-30 14:21:36.790 MSK [30631] ERROR:  column person_visits.order_date does not exist at character 282
+2023-05-30 14:21:36.790 MSK [30631] STATEMENT:  select (
+		select person.name 
+		from person 
+		where person.id = pv.person_id
+	) as person_name, (
+		select pizzeria.name 
+		from person 
+		where pizzeria.id = pv.pizzeria_id
+	) as pizzeria_name
+	from (
+		select person_visits.person_id, person_visits.pizzeria_id
+		from person_visits
+		where person_visits.order_date between '2022-01-07' and '2022-01-09'
+	) as pv;
+2023-05-30 14:22:28.569 MSK [30631] ERROR:  missing FROM-clause entry for table "pizzeria" at character 105
+2023-05-30 14:22:28.569 MSK [30631] STATEMENT:  select (
+		select person.name 
+		from person 
+		where person.id = pv.person_id
+	) as person_name, (
+		select pizzeria.name 
+		from person 
+		where pizzeria.id = pv.pizzeria_id
+	) as pizzeria_name
+	from (
+		select person_visits.person_id, person_visits.pizzeria_id
+		from person_visits
+		where person_visits.visit_date between '2022-01-07' and '2022-01-09'
+	) as pv;
+2023-05-30 14:22:45.882 MSK [26437] LOG:  checkpoint starting: time
+2023-05-30 14:22:45.987 MSK [26437] LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.103 s, sync=0.001 s, total=0.106 s; sync files=1, longest=0.001 s, average=0.001 s; distance=3 kB, estimate=2002 kB
+2023-05-30 16:22:45.884 MSK [38843] ERROR:  column menu.name does not exist at character 17
+2023-05-30 16:22:45.884 MSK [38843] STATEMENT:  select menu.id, menu.name
+	from menu;
+2023-05-30 16:24:03.026 MSK [38843] ERROR:  syntax error at or near "UNION" at character 1
+2023-05-30 16:24:03.026 MSK [38843] STATEMENT:  UNION
+	select person.id, person.name
+	from person;
+2023-05-30 16:24:11.544 MSK [26437] LOG:  checkpoint starting: time
+2023-05-30 16:24:11.648 MSK [26437] PANIC:  could not open file "/Users/khin/local/school21_platform/s21_sql/global/pg_control": No such file or directory
+2023-05-30 16:24:11.649 MSK [26436] LOG:  checkpointer process (PID 26437) was terminated by signal 6: Abort trap: 6
+2023-05-30 16:24:11.649 MSK [26436] LOG:  terminating any other active server processes
+2023-05-30 16:24:11.650 MSK [26436] LOG:  all server processes terminated; reinitializing
+2023-05-30 16:24:11.655 MSK [26436] FATAL:  could not stat data directory "/Users/khin/local/school21_platform/s21_sql": No such file or directory
+2023-05-30 16:24:11.656 MSK [26436] LOG:  database system is shut down

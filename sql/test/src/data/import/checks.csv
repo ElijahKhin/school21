@@ -1,0 +1,1893 @@
+id,peer,task,date
+1,lcardiga,CPP8_PhotoLab_v1.0,2018-01-01
+2,kclayton,CPP6_3DViewer_v2.2,2018-01-03
+3,cgamble,CPP4_3DViewer_v2.0,2018-01-05
+4,lhorn,CPP7_MLP,2018-01-05
+5,mmullen,A3_Parallels,2018-01-05
+6,bleonard,DO5_SimpleDocker,2018-01-05
+7,cchoi,C3_s21_string+,2018-01-06
+8,cfry,DO3_LinuxMonitoring v1.0,2018-01-08
+9,cgamble,C6_s21_matrix,2018-01-09
+10,ymoses,C4_s21_math,2018-01-10
+11,lthayer,CPP6_3DViewer_v2.2,2018-01-11
+12,rhurst,A4_Crypto,2018-01-12
+13,dkaplan,A6_transactions,2018-01-13
+14,cchoi,CPP9_MonitoringSystem,2018-01-14
+15,kshannon,CPP9_MonitoringSystem,2018-01-15
+16,elawson,A1_Maze,2018-01-16
+17,kmullins,C4_s21_math,2018-01-17
+18,hbethann,CPP2_s21_containers,2018-01-19
+19,lthayer,CPP4_3DViewer_v2.0,2018-01-23
+20,rhurst,A1_Maze,2018-01-23
+21,ymoses,SQL1_Pool,2018-01-23
+22,jmcintire,A8_algorithmic_trading,2018-01-24
+23,ghickey,CPP2_s21_containers,2018-01-25
+24,jgallegos,C3_s21_string+,2018-01-25
+25,hbethann,A3_Parallels,2018-01-28
+26,ghickey,DO5_SimpleDocker,2018-02-01
+27,abarker,CPP7_MLP,2018-02-01
+28,kshannon,DO2_Linux_Network,2018-02-01
+29,kmullins,DO3_LinuxMonitoring v1.0,2018-02-02
+30,abarker,A1_Maze,2018-02-05
+31,mpierce,A4_Crypto,2018-02-06
+32,cmurphy,CPP2_s21_containers,2018-02-06
+33,fkaiser,DO3_LinuxMonitoring v1.0,2018-02-07
+34,cchoi,DO2_Linux_Network,2018-02-07
+35,ahill,C8_3DViewer_v1.0,2018-02-08
+36,rmcbride,DO2_Linux_Network,2018-02-11
+37,bleonard,DO4_LinuxMonitoring v2.0,2018-02-13
+38,abarker,A2_SimpleNavigator v1.0,2018-02-13
+39,abarker,DO4_LinuxMonitoring v2.0,2018-02-13
+40,elawson,CPP3_SmartCalc_v2.0,2018-02-15
+41,elawson,SQL1_Pool,2018-02-15
+42,awest,SQL3_RetailAnalytics v1.0,2018-02-16
+43,jclay,CPP8_PhotoLab_v1.0,2018-02-17
+44,bmelanie,CPP5_3DViewer_v2.1,2018-02-17
+45,lhorn,DO2_Linux_Network,2018-02-17
+46,cfry,C6_s21_matrix,2018-02-18
+47,msandoval,C6_s21_matrix,2018-02-19
+48,mpierce,CPP3_SmartCalc_v2.0,2018-02-19
+49,mmullen,DO4_LinuxMonitoring v2.0,2018-02-19
+50,cgamble,CPP4_3DViewer_v2.0,2018-02-20
+51,bleonard,A6_transactions,2018-02-21
+52,bleonard,CPP4_3DViewer_v2.0,2018-02-22
+53,mpierce,C8_3DViewer_v1.0,2018-02-22
+54,cfry,C8_3DViewer_v1.0,2018-02-24
+55,fdonovan,CPP8_PhotoLab_v1.0,2018-02-25
+56,ghickey,C8_3DViewer_v1.0,2018-02-26
+57,jwagoner,DO2_Linux_Network,2018-02-26
+58,lthayer,CPP5_3DViewer_v2.1,2018-02-26
+59,bmelanie,A2_SimpleNavigator v1.0,2018-02-28
+60,aclay,C4_s21_math,2018-02-28
+61,kmullins,C2_SimpleBashUtils,2018-03-02
+62,ahill,SQL1_Pool,2018-03-03
+63,rhurst,A1_Maze,2018-03-05
+64,amccormick,A1_Maze,2018-03-05
+65,gwade,A6_transactions,2018-03-05
+66,fkaiser,DO2_Linux_Network,2018-03-06
+67,msandoval,CPP8_PhotoLab_v1.0,2018-03-06
+68,mmullen,DO1_Linux,2018-03-07
+69,gwade,A7_DNA_analyser,2018-03-07
+70,rmcbride,C6_s21_matrix,2018-03-08
+71,ghickey,A8_algorithmic_trading,2018-03-10
+72,kclayton,A8_algorithmic_trading,2018-03-10
+73,lmackey,C2_SimpleBashUtils,2018-03-12
+74,mfuentes,DO6_CICD,2018-03-12
+75,ymoses,DO2_Linux_Network,2018-03-13
+76,abowers,A6_transactions,2018-03-13
+77,mpierce,DO4_LinuxMonitoring v2.0,2018-03-14
+78,jclay,A6_transactions,2018-03-14
+79,abarnes,A5_s21_memory,2018-03-14
+80,jclay,C6_s21_matrix,2018-03-14
+81,ctrevino,DO1_Linux,2018-03-15
+82,vearleen,CPP5_3DViewer_v2.1,2018-03-15
+83,rvalencia,A5_s21_memory,2018-03-16
+84,ghickey,C7_SmartCalc_v1.0,2018-03-18
+85,lcardiga,CPP1_s21_matrix+,2018-03-18
+86,kmullins,CPP4_3DViewer_v2.0,2018-03-18
+87,hbethann,DO3_LinuxMonitoring v1.0,2018-03-19
+88,mpierce,CPP5_3DViewer_v2.1,2018-03-19
+89,hbethann,DO1_Linux,2018-03-20
+90,gwade,A1_Maze,2018-03-20
+91,jgallegos,CPP9_MonitoringSystem,2018-03-21
+92,jclay,CPP1_s21_matrix+,2018-03-21
+93,lthayer,A2_SimpleNavigator v1.0,2018-03-21
+94,msandoval,CPP5_3DViewer_v2.1,2018-03-22
+95,lmackey,C4_s21_math,2018-03-22
+96,hbethann,CPP9_MonitoringSystem,2018-03-23
+97,djohns,CPP7_MLP,2018-03-24
+98,jwagoner,SQL1_Pool,2018-03-24
+99,gwade,A8_algorithmic_trading,2018-03-24
+100,dkaplan,A6_transactions,2018-03-25
+101,dkaplan,CPP1_s21_matrix+,2018-03-26
+102,aclay,DO1_Linux,2018-03-27
+103,jclay,C5_s21_decimal,2018-03-27
+104,mmullen,DO1_Linux,2018-03-28
+105,mpierce,DO6_CICD,2018-03-28
+106,rvalencia,A8_algorithmic_trading,2018-04-01
+107,vearleen,SQL2_Info21 v1.0,2018-04-02
+108,jgallegos,DO3_LinuxMonitoring v1.0,2018-04-03
+109,wcary,CPP2_s21_containers,2018-04-04
+110,lcardiga,A5_s21_memory,2018-04-05
+111,jgallegos,SQL1_Pool,2018-04-05
+112,gmcpherson,SQL2_Info21 v1.0,2018-04-06
+113,ymoses,CPP8_PhotoLab_v1.0,2018-04-07
+114,dwaller,A3_Parallels,2018-04-07
+115,abowers,C3_s21_string+,2018-04-08
+116,vearleen,CPP9_MonitoringSystem,2018-04-08
+117,elawson,A6_transactions,2018-04-09
+118,ymoses,DO3_LinuxMonitoring v1.0,2018-04-10
+119,lmackey,C8_3DViewer_v1.0,2018-04-12
+120,cchoi,SQL3_RetailAnalytics v1.0,2018-04-12
+121,kclayton,A6_transactions,2018-04-14
+122,bcameron,DO6_CICD,2018-04-15
+123,abarker,A7_DNA_analyser,2018-04-15
+124,hbethann,CPP7_MLP,2018-04-16
+125,mpierce,DO6_CICD,2018-04-16
+126,lmackey,CPP8_PhotoLab_v1.0,2018-04-18
+127,jgallegos,A8_algorithmic_trading,2018-04-18
+128,jclay,CPP2_s21_containers,2018-04-18
+129,mgarner,C2_SimpleBashUtils,2018-04-19
+130,rhurst,CPP8_PhotoLab_v1.0,2018-04-19
+131,jwagoner,DO5_SimpleDocker,2018-04-19
+132,kclayton,SQL3_RetailAnalytics v1.0,2018-04-20
+133,rhurst,C5_s21_decimal,2018-04-20
+134,gmcpherson,SQL2_Info21 v1.0,2018-04-21
+135,bmcfarland,DO5_SimpleDocker,2018-04-21
+136,gmcpherson,A4_Crypto,2018-04-21
+137,lmackey,C2_SimpleBashUtils,2018-04-24
+138,fkaiser,C8_3DViewer_v1.0,2018-04-26
+139,kclayton,DO5_SimpleDocker,2018-04-27
+140,ghickey,C2_SimpleBashUtils,2018-04-27
+141,dwalsh,C8_3DViewer_v1.0,2018-05-01
+142,dwaller,A6_transactions,2018-05-01
+143,bmelanie,CPP9_MonitoringSystem,2018-05-03
+144,lcardiga,C7_SmartCalc_v1.0,2018-05-03
+145,gwade,A4_Crypto,2018-05-04
+146,cmurphy,CPP4_3DViewer_v2.0,2018-05-05
+147,cgamble,DO4_LinuxMonitoring v2.0,2018-05-06
+148,jgallegos,CPP3_SmartCalc_v2.0,2018-05-06
+149,alee,CPP8_PhotoLab_v1.0,2018-05-07
+150,dkaplan,CPP3_SmartCalc_v2.0,2018-05-08
+151,vearleen,C3_s21_string+,2018-05-12
+152,rlarson,C6_s21_matrix,2018-05-13
+153,ctrevino,DO3_LinuxMonitoring v1.0,2018-05-15
+154,lmackey,A2_SimpleNavigator v1.0,2018-05-16
+155,mfuentes,A5_s21_memory,2018-05-17
+156,fhiedi,C3_s21_string+,2018-05-18
+157,vearleen,CPP3_SmartCalc_v2.0,2018-05-18
+158,vearleen,CPP1_s21_matrix+,2018-05-19
+159,kmullins,A3_Parallels,2018-05-23
+160,lthayer,DO6_CICD,2018-05-26
+161,kshannon,A1_Maze,2018-05-26
+162,dkaplan,DO6_CICD,2018-05-27
+163,jmcintire,SQL1_Pool,2018-05-27
+164,gwade,A4_Crypto,2018-05-27
+165,awest,DO6_CICD,2018-06-01
+166,dwalsh,A7_DNA_analyser,2018-06-02
+167,lhorn,CPP3_SmartCalc_v2.0,2018-06-06
+168,abarnes,CPP4_3DViewer_v2.0,2018-06-10
+169,ymoses,C5_s21_decimal,2018-06-10
+170,jgallegos,C6_s21_matrix,2018-06-11
+171,lmackey,C3_s21_string+,2018-06-11
+172,kmullins,A8_algorithmic_trading,2018-06-12
+173,rmcbride,CPP8_PhotoLab_v1.0,2018-06-12
+174,bmelanie,A8_algorithmic_trading,2018-06-14
+175,rhurst,SQL1_Pool,2018-06-14
+176,alee,SQL1_Pool,2018-06-15
+177,mfuentes,A7_DNA_analyser,2018-06-15
+178,dwaller,A3_Parallels,2018-06-17
+179,gmcpherson,SQL3_RetailAnalytics v1.0,2018-06-19
+180,abowers,CPP3_SmartCalc_v2.0,2018-06-20
+181,jgallegos,DO5_SimpleDocker,2018-06-21
+182,dwalsh,CPP9_MonitoringSystem,2018-06-21
+183,cmurphy,CPP1_s21_matrix+,2018-06-21
+184,hbethann,CPP1_s21_matrix+,2018-06-22
+185,lthayer,SQL3_RetailAnalytics v1.0,2018-06-22
+186,aclay,A4_Crypto,2018-06-23
+187,cgamble,C8_3DViewer_v1.0,2018-06-23
+188,fkaiser,SQL2_Info21 v1.0,2018-06-23
+189,kmullins,CPP9_MonitoringSystem,2018-06-24
+190,elawson,DO2_Linux_Network,2018-06-26
+191,ctrevino,CPP5_3DViewer_v2.1,2018-06-27
+192,cchoi,DO6_CICD,2018-06-28
+193,gwade,DO4_LinuxMonitoring v2.0,2018-07-02
+194,rlarson,CPP1_s21_matrix+,2018-07-04
+195,ahill,A5_s21_memory,2018-07-05
+196,dwalsh,A7_DNA_analyser,2018-07-06
+197,jmcintire,DO1_Linux,2018-07-06
+198,bleonard,CPP3_SmartCalc_v2.0,2018-07-07
+199,abarnes,A7_DNA_analyser,2018-07-07
+200,lmackey,DO2_Linux_Network,2018-07-09
+201,bleonard,C6_s21_matrix,2018-07-10
+202,ghickey,SQL1_Pool,2018-07-10
+203,bmelanie,A7_DNA_analyser,2018-07-11
+204,msandoval,C6_s21_matrix,2018-07-12
+205,abowers,SQL2_Info21 v1.0,2018-07-13
+206,ghickey,A5_s21_memory,2018-07-15
+207,kclayton,A7_DNA_analyser,2018-07-15
+208,fdonovan,A1_Maze,2018-07-18
+209,kshannon,DO3_LinuxMonitoring v1.0,2018-07-18
+210,fhiedi,DO2_Linux_Network,2018-07-19
+211,bmcfarland,C5_s21_decimal,2018-07-19
+212,bleonard,A1_Maze,2018-07-20
+213,dwaller,SQL2_Info21 v1.0,2018-07-20
+214,elawson,A8_algorithmic_trading,2018-07-22
+215,rlarson,CPP2_s21_containers,2018-07-22
+216,mgarner,C4_s21_math,2018-07-23
+217,senglish,C6_s21_matrix,2018-07-26
+218,vearleen,C4_s21_math,2018-07-27
+219,fhiedi,SQL3_RetailAnalytics v1.0,2018-07-28
+220,amccormick,C8_3DViewer_v1.0,2018-08-01
+221,fdonovan,CPP3_SmartCalc_v2.0,2018-08-03
+222,kshannon,C3_s21_string+,2018-08-04
+223,wcary,CPP2_s21_containers,2018-08-06
+224,cmurphy,DO6_CICD,2018-08-07
+225,fhiedi,CPP5_3DViewer_v2.1,2018-08-09
+226,ghickey,CPP4_3DViewer_v2.0,2018-08-11
+227,jclay,A3_Parallels,2018-08-11
+228,abowers,CPP5_3DViewer_v2.1,2018-08-11
+229,djohns,A1_Maze,2018-08-11
+230,cmurphy,DO3_LinuxMonitoring v1.0,2018-08-11
+231,jclay,A2_SimpleNavigator v1.0,2018-08-12
+232,rlarson,SQL3_RetailAnalytics v1.0,2018-08-12
+233,fhiedi,DO1_Linux,2018-08-13
+234,dwaller,A7_DNA_analyser,2018-08-16
+235,lthayer,DO1_Linux,2018-08-17
+236,rmcbride,CPP2_s21_containers,2018-08-17
+237,rvalencia,C6_s21_matrix,2018-08-18
+238,ymoses,A3_Parallels,2018-08-18
+239,jclay,A4_Crypto,2018-08-19
+240,awest,CPP1_s21_matrix+,2018-08-20
+241,djohns,C7_SmartCalc_v1.0,2018-08-21
+242,ymoses,SQL3_RetailAnalytics v1.0,2018-08-21
+243,abowers,SQL1_Pool,2018-08-24
+244,lthayer,DO6_CICD,2018-08-25
+245,mmullen,C6_s21_matrix,2018-08-26
+246,gwade,CPP6_3DViewer_v2.2,2018-08-26
+247,aclay,A3_Parallels,2018-08-27
+248,cchoi,A4_Crypto,2018-08-28
+249,jclay,A6_transactions,2018-09-01
+250,kclayton,CPP5_3DViewer_v2.1,2018-09-01
+251,wcary,C5_s21_decimal,2018-09-04
+252,dkaplan,CPP2_s21_containers,2018-09-05
+253,cmurphy,DO3_LinuxMonitoring v1.0,2018-09-07
+254,kshannon,CPP3_SmartCalc_v2.0,2018-09-11
+255,dwalsh,CPP9_MonitoringSystem,2018-09-12
+256,bmelanie,CPP3_SmartCalc_v2.0,2018-09-13
+257,hbethann,A8_algorithmic_trading,2018-09-17
+258,dwaller,A3_Parallels,2018-09-20
+259,rmcfarland,CPP9_MonitoringSystem,2018-09-21
+260,dwaller,DO1_Linux,2018-09-23
+261,fkaiser,CPP5_3DViewer_v2.1,2018-09-24
+262,dkaplan,A2_SimpleNavigator v1.0,2018-09-27
+263,cfry,DO5_SimpleDocker,2018-09-28
+264,mpierce,C4_s21_math,2018-10-01
+265,djohns,CPP8_PhotoLab_v1.0,2018-10-01
+266,ctrevino,A7_DNA_analyser,2018-10-02
+267,msandoval,DO1_Linux,2018-10-05
+268,awest,CPP3_SmartCalc_v2.0,2018-10-05
+269,mmullen,C7_SmartCalc_v1.0,2018-10-05
+270,rlarson,SQL2_Info21 v1.0,2018-10-06
+271,ghickey,DO4_LinuxMonitoring v2.0,2018-10-08
+272,abowers,A6_transactions,2018-10-09
+273,cchoi,A5_s21_memory,2018-10-11
+274,jmcintire,SQL3_RetailAnalytics v1.0,2018-10-14
+275,kmullins,C2_SimpleBashUtils,2018-10-18
+276,dkaplan,C4_s21_math,2018-10-18
+277,amccormick,CPP2_s21_containers,2018-10-19
+278,bmelanie,C2_SimpleBashUtils,2018-10-21
+279,lmackey,DO6_CICD,2018-10-22
+280,abarker,DO3_LinuxMonitoring v1.0,2018-10-22
+281,jwagoner,SQL2_Info21 v1.0,2018-10-22
+282,rhurst,C7_SmartCalc_v1.0,2018-10-22
+283,dkaplan,C6_s21_matrix,2018-10-23
+284,fdonovan,A4_Crypto,2018-10-24
+285,cgamble,A6_transactions,2018-10-26
+286,alee,C8_3DViewer_v1.0,2018-10-27
+287,senglish,CPP2_s21_containers,2018-10-27
+288,jmcintire,CPP6_3DViewer_v2.2,2018-10-27
+289,kshannon,C3_s21_string+,2018-10-28
+290,cfry,DO5_SimpleDocker,2018-11-01
+291,ahill,CPP5_3DViewer_v2.1,2018-11-02
+292,cgamble,A4_Crypto,2018-11-06
+293,rhurst,CPP2_s21_containers,2018-11-06
+294,cchoi,CPP7_MLP,2018-11-08
+295,rlarson,SQL3_RetailAnalytics v1.0,2018-11-08
+296,dwaller,CPP2_s21_containers,2018-11-08
+297,msandoval,A1_Maze,2018-11-09
+298,cgamble,C4_s21_math,2018-11-10
+299,jclay,SQL2_Info21 v1.0,2018-11-10
+300,mpierce,C5_s21_decimal,2018-11-11
+301,bleonard,DO2_Linux_Network,2018-11-12
+302,msandoval,C6_s21_matrix,2018-11-12
+303,jgallegos,A5_s21_memory,2018-11-13
+304,rhurst,SQL2_Info21 v1.0,2018-11-13
+305,djohns,CPP9_MonitoringSystem,2018-11-14
+306,wcary,CPP2_s21_containers,2018-11-14
+307,ctrevino,A5_s21_memory,2018-11-15
+308,djohns,CPP8_PhotoLab_v1.0,2018-11-16
+309,kmullins,DO3_LinuxMonitoring v1.0,2018-11-18
+310,mpierce,DO4_LinuxMonitoring v2.0,2018-11-20
+311,elawson,SQL2_Info21 v1.0,2018-11-20
+312,ghickey,A7_DNA_analyser,2018-11-20
+313,lcardiga,C4_s21_math,2018-11-22
+314,dwaller,SQL1_Pool,2018-11-22
+315,lcardiga,A6_transactions,2018-11-23
+316,vearleen,A2_SimpleNavigator v1.0,2018-11-24
+317,cchoi,C2_SimpleBashUtils,2018-12-01
+318,gwade,A6_transactions,2018-12-02
+319,kmullins,A5_s21_memory,2018-12-03
+320,elawson,A5_s21_memory,2018-12-05
+321,aclay,SQL1_Pool,2018-12-06
+322,ymoses,C5_s21_decimal,2018-12-06
+323,lthayer,CPP9_MonitoringSystem,2018-12-07
+324,dwaller,A2_SimpleNavigator v1.0,2018-12-09
+325,ahill,C8_3DViewer_v1.0,2018-12-11
+326,elawson,A7_DNA_analyser,2018-12-11
+327,gmcpherson,A5_s21_memory,2018-12-11
+328,dwaller,DO6_CICD,2018-12-14
+329,lmackey,CPP3_SmartCalc_v2.0,2018-12-14
+330,mmullen,A3_Parallels,2018-12-16
+331,hbethann,DO3_LinuxMonitoring v1.0,2018-12-16
+332,cmurphy,C3_s21_string+,2018-12-17
+333,senglish,CPP6_3DViewer_v2.2,2018-12-19
+334,jgallegos,C5_s21_decimal,2018-12-22
+335,senglish,C3_s21_string+,2018-12-23
+336,alee,C6_s21_matrix,2018-12-24
+337,mmullen,DO4_LinuxMonitoring v2.0,2018-12-26
+338,ctrevino,A6_transactions,2018-12-28
+339,msandoval,DO3_LinuxMonitoring v1.0,2018-12-28
+340,mmullen,CPP1_s21_matrix+,2018-12-28
+341,awest,DO1_Linux,2019-01-01
+342,mgarner,A8_algorithmic_trading,2019-01-01
+343,fkaiser,A4_Crypto,2019-01-04
+344,aclay,A5_s21_memory,2019-01-04
+345,vearleen,CPP9_MonitoringSystem,2019-01-04
+346,lmackey,DO3_LinuxMonitoring v1.0,2019-01-08
+347,aclay,DO4_LinuxMonitoring v2.0,2019-01-09
+348,gmcpherson,CPP3_SmartCalc_v2.0,2019-01-09
+349,mmullen,CPP4_3DViewer_v2.0,2019-01-11
+350,rhurst,DO1_Linux,2019-01-11
+351,aclay,A6_transactions,2019-01-12
+352,dwalsh,A1_Maze,2019-01-13
+353,fdonovan,CPP7_MLP,2019-01-13
+354,amccormick,A5_s21_memory,2019-01-14
+355,bmelanie,CPP8_PhotoLab_v1.0,2019-01-14
+356,jgallegos,C5_s21_decimal,2019-01-14
+357,elawson,DO6_CICD,2019-01-15
+358,rlarson,CPP1_s21_matrix+,2019-01-17
+359,hbethann,A3_Parallels,2019-01-18
+360,rmcfarland,A7_DNA_analyser,2019-01-18
+361,cgamble,DO2_Linux_Network,2019-01-19
+362,rhurst,DO2_Linux_Network,2019-01-19
+363,jmcintire,C3_s21_string+,2019-01-20
+364,ymoses,C7_SmartCalc_v1.0,2019-01-21
+365,kshannon,A3_Parallels,2019-01-21
+366,awest,CPP2_s21_containers,2019-01-22
+367,ahill,A1_Maze,2019-01-25
+368,mmullen,C7_SmartCalc_v1.0,2019-01-26
+369,cfry,C8_3DViewer_v1.0,2019-01-28
+370,awest,CPP8_PhotoLab_v1.0,2019-02-04
+371,bcameron,C2_SimpleBashUtils,2019-02-07
+372,bcameron,C8_3DViewer_v1.0,2019-02-08
+373,gmcpherson,CPP3_SmartCalc_v2.0,2019-02-08
+374,kclayton,DO6_CICD,2019-02-09
+375,aclay,DO2_Linux_Network,2019-02-09
+376,jclay,CPP1_s21_matrix+,2019-02-10
+377,dwaller,CPP3_SmartCalc_v2.0,2019-02-11
+378,bcameron,A3_Parallels,2019-02-11
+379,lmackey,DO3_LinuxMonitoring v1.0,2019-02-12
+380,senglish,C6_s21_matrix,2019-02-14
+381,gmcpherson,C3_s21_string+,2019-02-18
+382,ctrevino,SQL2_Info21 v1.0,2019-02-22
+383,dwaller,SQL3_RetailAnalytics v1.0,2019-02-22
+384,lmackey,DO3_LinuxMonitoring v1.0,2019-02-25
+385,jclay,A5_s21_memory,2019-02-26
+386,dkaplan,CPP3_SmartCalc_v2.0,2019-02-28
+387,ahill,A2_SimpleNavigator v1.0,2019-03-01
+388,ctrevino,C8_3DViewer_v1.0,2019-03-02
+389,jwagoner,SQL3_RetailAnalytics v1.0,2019-03-03
+390,dkaplan,A1_Maze,2019-03-03
+391,jmcintire,A1_Maze,2019-03-04
+392,lthayer,CPP3_SmartCalc_v2.0,2019-03-04
+393,djohns,DO5_SimpleDocker,2019-03-06
+394,mmullen,C3_s21_string+,2019-03-06
+395,elawson,DO2_Linux_Network,2019-03-07
+396,cgamble,A8_algorithmic_trading,2019-03-07
+397,senglish,C2_SimpleBashUtils,2019-03-09
+398,elawson,C6_s21_matrix,2019-03-09
+399,awest,DO5_SimpleDocker,2019-03-10
+400,mfuentes,SQL1_Pool,2019-03-10
+401,msandoval,C6_s21_matrix,2019-03-11
+402,rmcbride,C6_s21_matrix,2019-03-12
+403,jgallegos,CPP6_3DViewer_v2.2,2019-03-13
+404,fkaiser,DO3_LinuxMonitoring v1.0,2019-03-14
+405,bmcfarland,A7_DNA_analyser,2019-03-15
+406,bmelanie,C5_s21_decimal,2019-03-16
+407,kclayton,A6_transactions,2019-03-17
+408,cmurphy,CPP2_s21_containers,2019-03-18
+409,elawson,C5_s21_decimal,2019-03-19
+410,fdonovan,C8_3DViewer_v1.0,2019-03-20
+411,cchoi,CPP3_SmartCalc_v2.0,2019-03-22
+412,dkaplan,SQL3_RetailAnalytics v1.0,2019-03-23
+413,lcardiga,A2_SimpleNavigator v1.0,2019-03-23
+414,mmullen,DO5_SimpleDocker,2019-03-23
+415,bmcfarland,CPP7_MLP,2019-03-25
+416,ymoses,CPP4_3DViewer_v2.0,2019-03-26
+417,amccormick,DO3_LinuxMonitoring v1.0,2019-03-28
+418,kclayton,C6_s21_matrix,2019-03-28
+419,abarker,CPP5_3DViewer_v2.1,2019-03-28
+420,cchoi,DO5_SimpleDocker,2019-04-01
+421,rhurst,C8_3DViewer_v1.0,2019-04-02
+422,ctrevino,CPP7_MLP,2019-04-04
+423,kclayton,SQL2_Info21 v1.0,2019-04-08
+424,awest,A4_Crypto,2019-04-09
+425,hbethann,DO6_CICD,2019-04-09
+426,ahill,C7_SmartCalc_v1.0,2019-04-09
+427,msandoval,C2_SimpleBashUtils,2019-04-11
+428,msandoval,C7_SmartCalc_v1.0,2019-04-12
+429,gmcpherson,CPP1_s21_matrix+,2019-04-12
+430,abowers,CPP1_s21_matrix+,2019-04-12
+431,abarker,A5_s21_memory,2019-04-13
+432,bmelanie,A1_Maze,2019-04-16
+433,elawson,C6_s21_matrix,2019-04-17
+434,lhorn,A4_Crypto,2019-04-17
+435,dwalsh,C6_s21_matrix,2019-04-18
+436,jclay,C4_s21_math,2019-04-19
+437,vearleen,A5_s21_memory,2019-04-19
+438,fhiedi,CPP2_s21_containers,2019-04-21
+439,lhorn,DO6_CICD,2019-04-23
+440,ahill,C6_s21_matrix,2019-04-23
+441,cfry,C3_s21_string+,2019-04-25
+442,lthayer,DO5_SimpleDocker,2019-04-26
+443,ghickey,A3_Parallels,2019-04-27
+444,jgallegos,CPP3_SmartCalc_v2.0,2019-04-27
+445,bleonard,DO6_CICD,2019-04-28
+446,aclay,CPP8_PhotoLab_v1.0,2019-04-28
+447,abarker,CPP5_3DViewer_v2.1,2019-05-02
+448,hbethann,CPP2_s21_containers,2019-05-04
+449,mfuentes,C3_s21_string+,2019-05-06
+450,rmcbride,DO2_Linux_Network,2019-05-07
+451,lcardiga,DO3_LinuxMonitoring v1.0,2019-05-08
+452,kshannon,SQL2_Info21 v1.0,2019-05-08
+453,jclay,DO1_Linux,2019-05-10
+454,mfuentes,C8_3DViewer_v1.0,2019-05-11
+455,mmullen,SQL3_RetailAnalytics v1.0,2019-05-13
+456,mgarner,A2_SimpleNavigator v1.0,2019-05-14
+457,elawson,CPP8_PhotoLab_v1.0,2019-05-19
+458,cmurphy,DO2_Linux_Network,2019-05-20
+459,bcameron,DO1_Linux,2019-05-21
+460,awest,CPP3_SmartCalc_v2.0,2019-05-22
+461,bmcfarland,DO2_Linux_Network,2019-05-23
+462,jwagoner,C5_s21_decimal,2019-05-23
+463,gwade,C4_s21_math,2019-05-23
+464,ctrevino,CPP9_MonitoringSystem,2019-05-23
+465,mgarner,A4_Crypto,2019-05-25
+466,ghickey,C7_SmartCalc_v1.0,2019-05-26
+467,dkaplan,DO2_Linux_Network,2019-05-27
+468,ahill,A6_transactions,2019-05-28
+469,cmurphy,SQL2_Info21 v1.0,2019-06-01
+470,ghickey,SQL2_Info21 v1.0,2019-06-02
+471,msandoval,CPP3_SmartCalc_v2.0,2019-06-02
+472,bcameron,C4_s21_math,2019-06-03
+473,lhorn,CPP5_3DViewer_v2.1,2019-06-03
+474,jclay,A5_s21_memory,2019-06-04
+475,bmelanie,DO6_CICD,2019-06-05
+476,rlarson,CPP3_SmartCalc_v2.0,2019-06-08
+477,abarker,CPP5_3DViewer_v2.1,2019-06-08
+478,dkaplan,DO1_Linux,2019-06-09
+479,dkaplan,CPP4_3DViewer_v2.0,2019-06-10
+480,amccormick,CPP3_SmartCalc_v2.0,2019-06-10
+481,senglish,C5_s21_decimal,2019-06-11
+482,djohns,A7_DNA_analyser,2019-06-12
+483,fkaiser,CPP9_MonitoringSystem,2019-06-12
+484,senglish,C7_SmartCalc_v1.0,2019-06-14
+485,elawson,SQL1_Pool,2019-06-14
+486,kmullins,C5_s21_decimal,2019-06-18
+487,awest,C7_SmartCalc_v1.0,2019-06-20
+488,cfry,A3_Parallels,2019-06-21
+489,elawson,C3_s21_string+,2019-06-21
+490,fdonovan,C7_SmartCalc_v1.0,2019-06-21
+491,gwade,A1_Maze,2019-06-21
+492,lhorn,CPP1_s21_matrix+,2019-06-22
+493,fdonovan,DO1_Linux,2019-06-23
+494,rlarson,DO5_SimpleDocker,2019-06-24
+495,hbethann,C8_3DViewer_v1.0,2019-06-25
+496,dkaplan,DO1_Linux,2019-06-25
+497,ahill,C6_s21_matrix,2019-06-26
+498,lcardiga,C8_3DViewer_v1.0,2019-06-26
+499,amccormick,C6_s21_matrix,2019-06-27
+500,cchoi,A8_algorithmic_trading,2019-06-27
+501,senglish,CPP5_3DViewer_v2.1,2019-07-03
+502,ctrevino,CPP4_3DViewer_v2.0,2019-07-04
+503,djohns,C5_s21_decimal,2019-07-04
+504,bcameron,C2_SimpleBashUtils,2019-07-06
+505,bmcfarland,A8_algorithmic_trading,2019-07-08
+506,jwagoner,A5_s21_memory,2019-07-09
+507,kshannon,DO5_SimpleDocker,2019-07-09
+508,jgallegos,SQL1_Pool,2019-07-11
+509,jgallegos,DO6_CICD,2019-07-11
+510,jclay,A3_Parallels,2019-07-12
+511,mfuentes,CPP9_MonitoringSystem,2019-07-13
+512,fhiedi,CPP2_s21_containers,2019-07-18
+513,ahill,C3_s21_string+,2019-07-18
+514,kclayton,A3_Parallels,2019-07-18
+515,bmelanie,A4_Crypto,2019-07-19
+516,cmurphy,DO2_Linux_Network,2019-07-19
+517,alee,CPP7_MLP,2019-07-20
+518,rlarson,CPP6_3DViewer_v2.2,2019-07-21
+519,kmullins,C2_SimpleBashUtils,2019-07-21
+520,bleonard,A2_SimpleNavigator v1.0,2019-07-25
+521,ghickey,A8_algorithmic_trading,2019-07-27
+522,rmcfarland,CPP8_PhotoLab_v1.0,2019-07-27
+523,ahill,C4_s21_math,2019-07-28
+524,mmullen,A4_Crypto,2019-07-28
+525,hbethann,CPP1_s21_matrix+,2019-08-01
+526,rhurst,CPP4_3DViewer_v2.0,2019-08-03
+527,senglish,CPP5_3DViewer_v2.1,2019-08-07
+528,lcardiga,CPP1_s21_matrix+,2019-08-09
+529,vearleen,DO1_Linux,2019-08-09
+530,msandoval,DO3_LinuxMonitoring v1.0,2019-08-10
+531,bmelanie,CPP3_SmartCalc_v2.0,2019-08-10
+532,amccormick,CPP7_MLP,2019-08-10
+533,ymoses,A2_SimpleNavigator v1.0,2019-08-11
+534,ymoses,CPP5_3DViewer_v2.1,2019-08-12
+535,lthayer,C4_s21_math,2019-08-12
+536,dkaplan,A8_algorithmic_trading,2019-08-13
+537,elawson,CPP3_SmartCalc_v2.0,2019-08-13
+538,lthayer,A8_algorithmic_trading,2019-08-15
+539,lcardiga,DO5_SimpleDocker,2019-08-19
+540,jmcintire,CPP4_3DViewer_v2.0,2019-08-20
+541,lhorn,DO1_Linux,2019-08-21
+542,fhiedi,C5_s21_decimal,2019-08-22
+543,abarnes,CPP3_SmartCalc_v2.0,2019-08-24
+544,ctrevino,A4_Crypto,2019-08-25
+545,dwalsh,CPP1_s21_matrix+,2019-08-25
+546,gmcpherson,A4_Crypto,2019-08-26
+547,jclay,SQL1_Pool,2019-08-27
+548,lhorn,CPP5_3DViewer_v2.1,2019-08-28
+549,lcardiga,C5_s21_decimal,2019-08-28
+550,lhorn,A4_Crypto,2019-09-01
+551,bmcfarland,CPP7_MLP,2019-09-02
+552,kshannon,A4_Crypto,2019-09-02
+553,jgallegos,C5_s21_decimal,2019-09-03
+554,mpierce,DO5_SimpleDocker,2019-09-03
+555,dwaller,C8_3DViewer_v1.0,2019-09-03
+556,fkaiser,A4_Crypto,2019-09-04
+557,rlarson,A5_s21_memory,2019-09-06
+558,hbethann,C5_s21_decimal,2019-09-06
+559,abarker,A8_algorithmic_trading,2019-09-08
+560,abarnes,A8_algorithmic_trading,2019-09-09
+561,hbethann,C2_SimpleBashUtils,2019-09-10
+562,bmelanie,C2_SimpleBashUtils,2019-09-11
+563,jwagoner,CPP7_MLP,2019-09-12
+564,gwade,CPP7_MLP,2019-09-12
+565,fdonovan,SQL1_Pool,2019-09-12
+566,hbethann,A7_DNA_analyser,2019-09-15
+567,dkaplan,CPP6_3DViewer_v2.2,2019-09-15
+568,jgallegos,A8_algorithmic_trading,2019-09-15
+569,rlarson,C5_s21_decimal,2019-09-16
+570,jclay,C3_s21_string+,2019-09-16
+571,ahill,CPP5_3DViewer_v2.1,2019-09-16
+572,abarker,A3_Parallels,2019-09-17
+573,vearleen,DO6_CICD,2019-09-17
+574,mpierce,CPP7_MLP,2019-09-18
+575,abarker,CPP6_3DViewer_v2.2,2019-09-18
+576,msandoval,CPP3_SmartCalc_v2.0,2019-09-21
+577,abarnes,SQL2_Info21 v1.0,2019-09-21
+578,djohns,CPP1_s21_matrix+,2019-09-22
+579,kmullins,DO3_LinuxMonitoring v1.0,2019-09-22
+580,gwade,A4_Crypto,2019-09-23
+581,hbethann,CPP6_3DViewer_v2.2,2019-09-23
+582,dwaller,A6_transactions,2019-09-24
+583,dwalsh,A4_Crypto,2019-09-24
+584,ymoses,DO5_SimpleDocker,2019-10-01
+585,senglish,SQL1_Pool,2019-10-02
+586,gwade,C8_3DViewer_v1.0,2019-10-03
+587,ctrevino,CPP9_MonitoringSystem,2019-10-04
+588,rlarson,C8_3DViewer_v1.0,2019-10-06
+589,mgarner,CPP3_SmartCalc_v2.0,2019-10-08
+590,jgallegos,SQL3_RetailAnalytics v1.0,2019-10-09
+591,cmurphy,C4_s21_math,2019-10-10
+592,rmcfarland,DO6_CICD,2019-10-12
+593,jmcintire,CPP1_s21_matrix+,2019-10-15
+594,fhiedi,A7_DNA_analyser,2019-10-15
+595,dwalsh,A7_DNA_analyser,2019-10-16
+596,bcameron,DO6_CICD,2019-10-17
+597,awest,SQL3_RetailAnalytics v1.0,2019-10-18
+598,fdonovan,A4_Crypto,2019-10-18
+599,kclayton,CPP9_MonitoringSystem,2019-10-20
+600,senglish,A4_Crypto,2019-10-23
+601,bcameron,DO5_SimpleDocker,2019-10-23
+602,mmullen,A6_transactions,2019-10-26
+603,ctrevino,CPP9_MonitoringSystem,2019-10-26
+604,abarker,C2_SimpleBashUtils,2019-10-26
+605,rmcfarland,C6_s21_matrix,2019-11-01
+606,bmelanie,CPP6_3DViewer_v2.2,2019-11-02
+607,kmullins,CPP3_SmartCalc_v2.0,2019-11-05
+608,mmullen,A7_DNA_analyser,2019-11-05
+609,bmcfarland,CPP9_MonitoringSystem,2019-11-05
+610,cchoi,A3_Parallels,2019-11-07
+611,jclay,SQL1_Pool,2019-11-09
+612,abarnes,DO5_SimpleDocker,2019-11-10
+613,kshannon,CPP2_s21_containers,2019-11-12
+614,abarker,C4_s21_math,2019-11-13
+615,rmcfarland,CPP4_3DViewer_v2.0,2019-11-14
+616,kshannon,C2_SimpleBashUtils,2019-11-14
+617,ghickey,A7_DNA_analyser,2019-11-15
+618,jgallegos,SQL2_Info21 v1.0,2019-11-15
+619,kclayton,C3_s21_string+,2019-11-15
+620,alee,DO3_LinuxMonitoring v1.0,2019-11-16
+621,aclay,SQL2_Info21 v1.0,2019-11-16
+622,lcardiga,SQL1_Pool,2019-11-16
+623,ymoses,C3_s21_string+,2019-11-20
+624,amccormick,DO4_LinuxMonitoring v2.0,2019-11-20
+625,dwalsh,CPP4_3DViewer_v2.0,2019-11-21
+626,rhurst,C5_s21_decimal,2019-11-24
+627,ahill,CPP9_MonitoringSystem,2019-11-24
+628,abarnes,C6_s21_matrix,2019-11-25
+629,lcardiga,A2_SimpleNavigator v1.0,2019-11-26
+630,abarker,DO2_Linux_Network,2019-11-26
+631,cgamble,DO2_Linux_Network,2019-11-28
+632,ghickey,CPP7_MLP,2019-12-03
+633,lthayer,C5_s21_decimal,2019-12-05
+634,abarker,DO3_LinuxMonitoring v1.0,2019-12-05
+635,cmurphy,SQL1_Pool,2019-12-06
+636,bmelanie,DO4_LinuxMonitoring v2.0,2019-12-07
+637,cmurphy,DO2_Linux_Network,2019-12-08
+638,cgamble,C3_s21_string+,2019-12-08
+639,abarnes,CPP9_MonitoringSystem,2019-12-09
+640,lcardiga,DO2_Linux_Network,2019-12-12
+641,mgarner,C7_SmartCalc_v1.0,2019-12-13
+642,gmcpherson,CPP5_3DViewer_v2.1,2019-12-13
+643,dwalsh,C7_SmartCalc_v1.0,2019-12-15
+644,fhiedi,A4_Crypto,2019-12-16
+645,hbethann,CPP8_PhotoLab_v1.0,2019-12-17
+646,amccormick,C3_s21_string+,2019-12-18
+647,fhiedi,SQL2_Info21 v1.0,2019-12-19
+648,djohns,SQL3_RetailAnalytics v1.0,2019-12-19
+649,bmelanie,A6_transactions,2019-12-19
+650,jmcintire,DO3_LinuxMonitoring v1.0,2019-12-21
+651,cfry,DO4_LinuxMonitoring v2.0,2019-12-21
+652,abowers,A5_s21_memory,2019-12-25
+653,awest,DO1_Linux,2019-12-25
+654,bmcfarland,CPP7_MLP,2019-12-28
+655,cchoi,CPP1_s21_matrix+,2019-12-28
+656,senglish,DO1_Linux,2020-01-01
+657,mgarner,SQL1_Pool,2020-01-01
+658,abarker,CPP1_s21_matrix+,2020-01-03
+659,amccormick,CPP8_PhotoLab_v1.0,2020-01-06
+660,mmullen,SQL2_Info21 v1.0,2020-01-06
+661,bleonard,CPP9_MonitoringSystem,2020-01-06
+662,wcary,DO4_LinuxMonitoring v2.0,2020-01-06
+663,ymoses,DO2_Linux_Network,2020-01-06
+664,cgamble,CPP8_PhotoLab_v1.0,2020-01-08
+665,gmcpherson,A6_transactions,2020-01-09
+666,kmullins,C8_3DViewer_v1.0,2020-01-11
+667,cmurphy,CPP4_3DViewer_v2.0,2020-01-11
+668,rlarson,A1_Maze,2020-01-12
+669,lthayer,C8_3DViewer_v1.0,2020-01-14
+670,cgamble,A3_Parallels,2020-01-14
+671,abowers,C5_s21_decimal,2020-01-15
+672,bcameron,DO2_Linux_Network,2020-01-15
+673,vearleen,A8_algorithmic_trading,2020-01-16
+674,gwade,C6_s21_matrix,2020-01-19
+675,ghickey,C8_3DViewer_v1.0,2020-01-21
+676,amccormick,SQL1_Pool,2020-01-21
+677,bcameron,CPP5_3DViewer_v2.1,2020-01-22
+678,gmcpherson,A3_Parallels,2020-01-22
+679,cmurphy,DO4_LinuxMonitoring v2.0,2020-01-22
+680,elawson,A2_SimpleNavigator v1.0,2020-01-22
+681,fkaiser,C7_SmartCalc_v1.0,2020-01-25
+682,lthayer,DO4_LinuxMonitoring v2.0,2020-01-26
+683,senglish,C5_s21_decimal,2020-01-28
+684,abowers,C7_SmartCalc_v1.0,2020-02-01
+685,mmullen,CPP4_3DViewer_v2.0,2020-02-01
+686,awest,DO4_LinuxMonitoring v2.0,2020-02-02
+687,aclay,CPP4_3DViewer_v2.0,2020-02-03
+688,dwalsh,DO4_LinuxMonitoring v2.0,2020-02-05
+689,elawson,CPP1_s21_matrix+,2020-02-06
+690,dwaller,CPP4_3DViewer_v2.0,2020-02-06
+691,kclayton,DO3_LinuxMonitoring v1.0,2020-02-07
+692,ghickey,CPP9_MonitoringSystem,2020-02-13
+693,ghickey,SQL2_Info21 v1.0,2020-02-16
+694,elawson,A5_s21_memory,2020-02-16
+695,cgamble,C7_SmartCalc_v1.0,2020-02-17
+696,lmackey,C2_SimpleBashUtils,2020-02-18
+697,abarker,DO4_LinuxMonitoring v2.0,2020-02-18
+698,dkaplan,C2_SimpleBashUtils,2020-02-23
+699,kclayton,CPP8_PhotoLab_v1.0,2020-02-23
+700,aclay,DO6_CICD,2020-02-23
+701,kclayton,SQL2_Info21 v1.0,2020-02-26
+702,msandoval,DO3_LinuxMonitoring v1.0,2020-02-28
+703,gmcpherson,A6_transactions,2020-03-01
+704,wcary,CPP7_MLP,2020-03-01
+705,lhorn,CPP7_MLP,2020-03-02
+706,cfry,CPP4_3DViewer_v2.0,2020-03-02
+707,ymoses,SQL3_RetailAnalytics v1.0,2020-03-03
+708,abarker,DO2_Linux_Network,2020-03-03
+709,dkaplan,A2_SimpleNavigator v1.0,2020-03-04
+710,fkaiser,CPP1_s21_matrix+,2020-03-05
+711,jgallegos,SQL1_Pool,2020-03-06
+712,abowers,DO4_LinuxMonitoring v2.0,2020-03-07
+713,cmurphy,CPP6_3DViewer_v2.2,2020-03-09
+714,hbethann,CPP9_MonitoringSystem,2020-03-09
+715,rlarson,DO3_LinuxMonitoring v1.0,2020-03-11
+716,ymoses,SQL1_Pool,2020-03-13
+717,cfry,DO1_Linux,2020-03-13
+718,cmurphy,CPP9_MonitoringSystem,2020-03-14
+719,abowers,C8_3DViewer_v1.0,2020-03-15
+720,lhorn,SQL2_Info21 v1.0,2020-03-17
+721,cchoi,CPP9_MonitoringSystem,2020-03-17
+722,djohns,SQL1_Pool,2020-03-18
+723,cfry,A5_s21_memory,2020-03-18
+724,fdonovan,CPP4_3DViewer_v2.0,2020-03-19
+725,fhiedi,SQL1_Pool,2020-03-20
+726,aclay,SQL3_RetailAnalytics v1.0,2020-03-22
+727,jclay,A3_Parallels,2020-03-25
+728,bcameron,DO3_LinuxMonitoring v1.0,2020-03-27
+729,mmullen,DO4_LinuxMonitoring v2.0,2020-03-27
+730,abarnes,C6_s21_matrix,2020-04-02
+731,amccormick,C4_s21_math,2020-04-04
+732,lmackey,CPP1_s21_matrix+,2020-04-05
+733,bmcfarland,A5_s21_memory,2020-04-07
+734,abowers,DO1_Linux,2020-04-08
+735,rmcfarland,C7_SmartCalc_v1.0,2020-04-09
+736,fhiedi,C2_SimpleBashUtils,2020-04-09
+737,kmullins,C8_3DViewer_v1.0,2020-04-10
+738,ctrevino,A2_SimpleNavigator v1.0,2020-04-10
+739,dkaplan,C6_s21_matrix,2020-04-11
+740,cgamble,SQL3_RetailAnalytics v1.0,2020-04-11
+741,lhorn,CPP6_3DViewer_v2.2,2020-04-11
+742,awest,CPP6_3DViewer_v2.2,2020-04-12
+743,ahill,A7_DNA_analyser,2020-04-14
+744,alee,A7_DNA_analyser,2020-04-14
+745,dkaplan,DO4_LinuxMonitoring v2.0,2020-04-17
+746,dwaller,A3_Parallels,2020-04-17
+747,vearleen,A7_DNA_analyser,2020-04-18
+748,jwagoner,A4_Crypto,2020-04-18
+749,kshannon,A1_Maze,2020-04-20
+750,fdonovan,C6_s21_matrix,2020-04-22
+751,kmullins,C7_SmartCalc_v1.0,2020-04-22
+752,fhiedi,A7_DNA_analyser,2020-04-25
+753,fkaiser,CPP3_SmartCalc_v2.0,2020-04-25
+754,wcary,A3_Parallels,2020-04-26
+755,vearleen,DO5_SimpleDocker,2020-04-26
+756,kmullins,CPP5_3DViewer_v2.1,2020-04-27
+757,rhurst,DO3_LinuxMonitoring v1.0,2020-04-27
+758,mmullen,DO4_LinuxMonitoring v2.0,2020-04-27
+759,lthayer,CPP4_3DViewer_v2.0,2020-04-28
+760,lcardiga,CPP8_PhotoLab_v1.0,2020-05-03
+761,jclay,CPP9_MonitoringSystem,2020-05-03
+762,fhiedi,CPP8_PhotoLab_v1.0,2020-05-05
+763,gwade,DO5_SimpleDocker,2020-05-07
+764,ctrevino,CPP7_MLP,2020-05-08
+765,mfuentes,CPP2_s21_containers,2020-05-10
+766,ahill,CPP9_MonitoringSystem,2020-05-11
+767,abowers,CPP2_s21_containers,2020-05-12
+768,awest,C8_3DViewer_v1.0,2020-05-13
+769,mfuentes,DO3_LinuxMonitoring v1.0,2020-05-13
+770,fdonovan,CPP3_SmartCalc_v2.0,2020-05-13
+771,cmurphy,A6_transactions,2020-05-14
+772,cgamble,A7_DNA_analyser,2020-05-15
+773,kmullins,A3_Parallels,2020-05-15
+774,gwade,SQL3_RetailAnalytics v1.0,2020-05-15
+775,mfuentes,CPP1_s21_matrix+,2020-05-16
+776,vearleen,CPP5_3DViewer_v2.1,2020-05-19
+777,mmullen,A7_DNA_analyser,2020-05-19
+778,abarker,DO5_SimpleDocker,2020-05-20
+779,lcardiga,CPP4_3DViewer_v2.0,2020-05-22
+780,rlarson,DO3_LinuxMonitoring v1.0,2020-05-23
+781,djohns,A2_SimpleNavigator v1.0,2020-05-23
+782,hbethann,A1_Maze,2020-05-23
+783,jclay,A2_SimpleNavigator v1.0,2020-05-23
+784,vearleen,SQL1_Pool,2020-05-25
+785,dwalsh,SQL1_Pool,2020-05-25
+786,lhorn,DO4_LinuxMonitoring v2.0,2020-05-28
+787,elawson,A5_s21_memory,2020-06-01
+788,lthayer,SQL3_RetailAnalytics v1.0,2020-06-02
+789,aclay,C5_s21_decimal,2020-06-05
+790,alee,SQL3_RetailAnalytics v1.0,2020-06-06
+791,rhurst,A2_SimpleNavigator v1.0,2020-06-06
+792,kclayton,CPP6_3DViewer_v2.2,2020-06-06
+793,awest,A6_transactions,2020-06-07
+794,mpierce,A4_Crypto,2020-06-09
+795,elawson,SQL2_Info21 v1.0,2020-06-09
+796,fkaiser,SQL2_Info21 v1.0,2020-06-12
+797,ctrevino,A2_SimpleNavigator v1.0,2020-06-12
+798,abarnes,A7_DNA_analyser,2020-06-15
+799,jmcintire,A1_Maze,2020-06-15
+800,hbethann,A1_Maze,2020-06-16
+801,mpierce,C2_SimpleBashUtils,2020-06-16
+802,abarnes,A1_Maze,2020-06-18
+803,bmelanie,CPP2_s21_containers,2020-06-18
+804,cgamble,SQL1_Pool,2020-06-20
+805,vearleen,C7_SmartCalc_v1.0,2020-06-22
+806,lhorn,DO4_LinuxMonitoring v2.0,2020-06-22
+807,ymoses,SQL1_Pool,2020-06-22
+808,abarker,SQL1_Pool,2020-06-23
+809,amccormick,A6_transactions,2020-06-25
+810,lcardiga,CPP7_MLP,2020-06-27
+811,aclay,C8_3DViewer_v1.0,2020-06-27
+812,cchoi,CPP5_3DViewer_v2.1,2020-07-02
+813,lhorn,C4_s21_math,2020-07-02
+814,jmcintire,A4_Crypto,2020-07-03
+815,elawson,A4_Crypto,2020-07-03
+816,lhorn,CPP4_3DViewer_v2.0,2020-07-03
+817,rlarson,A2_SimpleNavigator v1.0,2020-07-03
+818,fkaiser,C5_s21_decimal,2020-07-04
+819,ymoses,C5_s21_decimal,2020-07-04
+820,msandoval,C7_SmartCalc_v1.0,2020-07-07
+821,fdonovan,DO6_CICD,2020-07-08
+822,mfuentes,DO6_CICD,2020-07-09
+823,lcardiga,DO2_Linux_Network,2020-07-10
+824,rvalencia,CPP9_MonitoringSystem,2020-07-12
+825,rlarson,C8_3DViewer_v1.0,2020-07-12
+826,mgarner,SQL2_Info21 v1.0,2020-07-14
+827,wcary,C4_s21_math,2020-07-16
+828,mpierce,CPP9_MonitoringSystem,2020-07-18
+829,hbethann,DO3_LinuxMonitoring v1.0,2020-07-19
+830,jgallegos,CPP5_3DViewer_v2.1,2020-07-20
+831,abarker,CPP7_MLP,2020-07-20
+832,mfuentes,DO1_Linux,2020-07-21
+833,rvalencia,DO2_Linux_Network,2020-07-22
+834,jclay,CPP2_s21_containers,2020-07-23
+835,lhorn,CPP7_MLP,2020-07-24
+836,abarnes,CPP2_s21_containers,2020-07-25
+837,cgamble,CPP8_PhotoLab_v1.0,2020-07-25
+838,kmullins,CPP8_PhotoLab_v1.0,2020-07-25
+839,jwagoner,SQL1_Pool,2020-07-28
+840,kclayton,A1_Maze,2020-07-28
+841,ahill,DO2_Linux_Network,2020-08-02
+842,fhiedi,A3_Parallels,2020-08-03
+843,ahill,A7_DNA_analyser,2020-08-04
+844,jclay,A3_Parallels,2020-08-04
+845,dwaller,C7_SmartCalc_v1.0,2020-08-05
+846,senglish,C2_SimpleBashUtils,2020-08-05
+847,dkaplan,A6_transactions,2020-08-06
+848,bmcfarland,CPP1_s21_matrix+,2020-08-06
+849,lthayer,CPP9_MonitoringSystem,2020-08-07
+850,jmcintire,A7_DNA_analyser,2020-08-09
+851,dwalsh,C7_SmartCalc_v1.0,2020-08-09
+852,djohns,SQL2_Info21 v1.0,2020-08-09
+853,ghickey,C8_3DViewer_v1.0,2020-08-10
+854,lcardiga,C2_SimpleBashUtils,2020-08-11
+855,senglish,C3_s21_string+,2020-08-17
+856,ctrevino,C4_s21_math,2020-08-17
+857,msandoval,C2_SimpleBashUtils,2020-08-18
+858,jgallegos,CPP5_3DViewer_v2.1,2020-08-19
+859,ctrevino,A5_s21_memory,2020-08-19
+860,gmcpherson,CPP7_MLP,2020-08-19
+861,rmcfarland,C8_3DViewer_v1.0,2020-08-21
+862,awest,CPP7_MLP,2020-08-22
+863,dkaplan,CPP9_MonitoringSystem,2020-08-22
+864,ahill,A4_Crypto,2020-08-24
+865,lmackey,C4_s21_math,2020-08-25
+866,gmcpherson,DO5_SimpleDocker,2020-08-28
+867,lthayer,DO2_Linux_Network,2020-08-28
+868,aclay,C2_SimpleBashUtils,2020-09-02
+869,bcameron,CPP3_SmartCalc_v2.0,2020-09-02
+870,fdonovan,C2_SimpleBashUtils,2020-09-03
+871,jwagoner,A6_transactions,2020-09-04
+872,alee,DO1_Linux,2020-09-05
+873,abarnes,CPP1_s21_matrix+,2020-09-07
+874,senglish,SQL3_RetailAnalytics v1.0,2020-09-08
+875,awest,A8_algorithmic_trading,2020-09-09
+876,lhorn,A1_Maze,2020-09-10
+877,cmurphy,DO2_Linux_Network,2020-09-10
+878,djohns,CPP8_PhotoLab_v1.0,2020-09-10
+879,mpierce,SQL3_RetailAnalytics v1.0,2020-09-10
+880,abowers,CPP3_SmartCalc_v2.0,2020-09-10
+881,cchoi,DO1_Linux,2020-09-11
+882,dkaplan,A5_s21_memory,2020-09-11
+883,cgamble,DO6_CICD,2020-09-14
+884,fdonovan,A1_Maze,2020-09-15
+885,wcary,A2_SimpleNavigator v1.0,2020-09-15
+886,alee,CPP3_SmartCalc_v2.0,2020-09-17
+887,bmelanie,C8_3DViewer_v1.0,2020-09-17
+888,elawson,A4_Crypto,2020-09-20
+889,bmcfarland,A1_Maze,2020-09-21
+890,cgamble,C8_3DViewer_v1.0,2020-09-21
+891,mfuentes,CPP6_3DViewer_v2.2,2020-09-26
+892,msandoval,CPP4_3DViewer_v2.0,2020-09-27
+893,rvalencia,CPP6_3DViewer_v2.2,2020-09-28
+894,kclayton,CPP7_MLP,2020-09-28
+895,kclayton,A1_Maze,2020-09-28
+896,lmackey,A6_transactions,2020-09-28
+897,mfuentes,A2_SimpleNavigator v1.0,2020-09-28
+898,aclay,DO3_LinuxMonitoring v1.0,2020-10-01
+899,rlarson,C7_SmartCalc_v1.0,2020-10-02
+900,alee,CPP7_MLP,2020-10-02
+901,lcardiga,SQL1_Pool,2020-10-04
+902,cfry,C2_SimpleBashUtils,2020-10-05
+903,lthayer,DO5_SimpleDocker,2020-10-06
+904,dwalsh,DO3_LinuxMonitoring v1.0,2020-10-08
+905,jclay,CPP7_MLP,2020-10-08
+906,abarnes,A8_algorithmic_trading,2020-10-08
+907,ahill,CPP5_3DViewer_v2.1,2020-10-08
+908,senglish,C3_s21_string+,2020-10-10
+909,mpierce,SQL2_Info21 v1.0,2020-10-10
+910,lmackey,C5_s21_decimal,2020-10-12
+911,fdonovan,DO4_LinuxMonitoring v2.0,2020-10-12
+912,amccormick,A3_Parallels,2020-10-12
+913,kclayton,CPP7_MLP,2020-10-13
+914,elawson,A2_SimpleNavigator v1.0,2020-10-14
+915,senglish,CPP7_MLP,2020-10-15
+916,mfuentes,DO5_SimpleDocker,2020-10-16
+917,bmcfarland,A1_Maze,2020-10-17
+918,ahill,A7_DNA_analyser,2020-10-18
+919,cchoi,CPP5_3DViewer_v2.1,2020-10-18
+920,jmcintire,A5_s21_memory,2020-10-19
+921,dwalsh,C6_s21_matrix,2020-10-19
+922,abowers,DO2_Linux_Network,2020-10-23
+923,bleonard,CPP1_s21_matrix+,2020-10-24
+924,msandoval,DO1_Linux,2020-10-28
+925,hbethann,DO1_Linux,2020-10-28
+926,dwalsh,CPP8_PhotoLab_v1.0,2020-11-01
+927,dwaller,A3_Parallels,2020-11-01
+928,lthayer,CPP7_MLP,2020-11-02
+929,ghickey,DO3_LinuxMonitoring v1.0,2020-11-03
+930,djohns,C5_s21_decimal,2020-11-04
+931,jwagoner,DO5_SimpleDocker,2020-11-05
+932,kmullins,A6_transactions,2020-11-09
+933,mpierce,C2_SimpleBashUtils,2020-11-10
+934,lcardiga,C8_3DViewer_v1.0,2020-11-11
+935,mfuentes,CPP8_PhotoLab_v1.0,2020-11-12
+936,jmcintire,C2_SimpleBashUtils,2020-11-13
+937,jgallegos,C6_s21_matrix,2020-11-14
+938,cmurphy,DO5_SimpleDocker,2020-11-15
+939,bmcfarland,CPP8_PhotoLab_v1.0,2020-11-16
+940,jwagoner,CPP8_PhotoLab_v1.0,2020-11-19
+941,mfuentes,C4_s21_math,2020-11-21
+942,cfry,DO4_LinuxMonitoring v2.0,2020-11-21
+943,dwalsh,CPP3_SmartCalc_v2.0,2020-11-22
+944,lhorn,A7_DNA_analyser,2020-11-23
+945,kclayton,SQL2_Info21 v1.0,2020-11-23
+946,dwaller,CPP1_s21_matrix+,2020-11-27
+947,rmcbride,DO5_SimpleDocker,2020-11-27
+948,cgamble,CPP1_s21_matrix+,2020-11-28
+949,dkaplan,A8_algorithmic_trading,2020-12-01
+950,rmcfarland,DO4_LinuxMonitoring v2.0,2020-12-02
+951,kshannon,A4_Crypto,2020-12-03
+952,lthayer,A2_SimpleNavigator v1.0,2020-12-04
+953,bcameron,DO6_CICD,2020-12-04
+954,kclayton,A3_Parallels,2020-12-05
+955,cchoi,DO6_CICD,2020-12-08
+956,bmcfarland,CPP4_3DViewer_v2.0,2020-12-08
+957,fhiedi,SQL3_RetailAnalytics v1.0,2020-12-10
+958,fdonovan,C5_s21_decimal,2020-12-10
+959,gmcpherson,C3_s21_string+,2020-12-11
+960,cchoi,CPP8_PhotoLab_v1.0,2020-12-11
+961,lthayer,A3_Parallels,2020-12-12
+962,bmelanie,DO3_LinuxMonitoring v1.0,2020-12-12
+963,mmullen,DO3_LinuxMonitoring v1.0,2020-12-13
+964,djohns,A8_algorithmic_trading,2020-12-13
+965,mpierce,A4_Crypto,2020-12-14
+966,mfuentes,CPP8_PhotoLab_v1.0,2020-12-18
+967,gwade,A8_algorithmic_trading,2020-12-18
+968,jgallegos,CPP2_s21_containers,2020-12-20
+969,ymoses,C3_s21_string+,2020-12-21
+970,elawson,SQL2_Info21 v1.0,2020-12-22
+971,kmullins,DO3_LinuxMonitoring v1.0,2020-12-23
+972,ctrevino,DO6_CICD,2020-12-23
+973,mfuentes,CPP3_SmartCalc_v2.0,2020-12-24
+974,gmcpherson,C3_s21_string+,2020-12-24
+975,dwaller,DO3_LinuxMonitoring v1.0,2020-12-25
+976,rlarson,A3_Parallels,2020-12-26
+977,wcary,C3_s21_string+,2020-12-27
+978,ymoses,DO6_CICD,2021-01-01
+979,fkaiser,CPP9_MonitoringSystem,2021-01-01
+980,jgallegos,A5_s21_memory,2021-01-02
+981,abowers,SQL1_Pool,2021-01-03
+982,ghickey,C6_s21_matrix,2021-01-07
+983,dkaplan,C3_s21_string+,2021-01-07
+984,hbethann,DO2_Linux_Network,2021-01-08
+985,cgamble,CPP9_MonitoringSystem,2021-01-08
+986,abarnes,DO3_LinuxMonitoring v1.0,2021-01-10
+987,djohns,C5_s21_decimal,2021-01-12
+988,dkaplan,C2_SimpleBashUtils,2021-01-12
+989,rlarson,A4_Crypto,2021-01-12
+990,gmcpherson,CPP5_3DViewer_v2.1,2021-01-13
+991,bmelanie,CPP9_MonitoringSystem,2021-01-14
+992,rvalencia,CPP1_s21_matrix+,2021-01-14
+993,ghickey,C3_s21_string+,2021-01-14
+994,kshannon,DO5_SimpleDocker,2021-01-15
+995,rmcbride,CPP9_MonitoringSystem,2021-01-18
+996,aclay,DO2_Linux_Network,2021-01-18
+997,lhorn,CPP8_PhotoLab_v1.0,2021-01-19
+998,gwade,C2_SimpleBashUtils,2021-01-19
+999,cfry,C6_s21_matrix,2021-01-20
+1000,bcameron,A2_SimpleNavigator v1.0,2021-01-21
+1001,fkaiser,CPP6_3DViewer_v2.2,2021-01-22
+1002,cchoi,A2_SimpleNavigator v1.0,2021-01-23
+1003,amccormick,C7_SmartCalc_v1.0,2021-01-24
+1004,rmcbride,C6_s21_matrix,2021-01-24
+1005,lcardiga,CPP2_s21_containers,2021-01-26
+1006,gmcpherson,C8_3DViewer_v1.0,2021-01-27
+1007,mgarner,CPP3_SmartCalc_v2.0,2021-02-02
+1008,ctrevino,C8_3DViewer_v1.0,2021-02-02
+1009,ahill,CPP1_s21_matrix+,2021-02-02
+1010,hbethann,CPP3_SmartCalc_v2.0,2021-02-03
+1011,rhurst,C2_SimpleBashUtils,2021-02-03
+1012,alee,DO2_Linux_Network,2021-02-04
+1013,lthayer,C5_s21_decimal,2021-02-05
+1014,gmcpherson,A4_Crypto,2021-02-05
+1015,hbethann,A8_algorithmic_trading,2021-02-05
+1016,fdonovan,SQL2_Info21 v1.0,2021-02-06
+1017,abarker,A3_Parallels,2021-02-06
+1018,bmcfarland,A2_SimpleNavigator v1.0,2021-02-07
+1019,gmcpherson,CPP6_3DViewer_v2.2,2021-02-07
+1020,senglish,DO1_Linux,2021-02-07
+1021,senglish,C2_SimpleBashUtils,2021-02-08
+1022,ahill,A5_s21_memory,2021-02-08
+1023,awest,SQL3_RetailAnalytics v1.0,2021-02-09
+1024,kmullins,CPP2_s21_containers,2021-02-09
+1025,mmullen,CPP2_s21_containers,2021-02-10
+1026,jclay,A5_s21_memory,2021-02-11
+1027,mfuentes,DO5_SimpleDocker,2021-02-14
+1028,kclayton,DO2_Linux_Network,2021-02-15
+1029,jclay,A5_s21_memory,2021-02-16
+1030,mpierce,C4_s21_math,2021-02-19
+1031,fkaiser,SQL3_RetailAnalytics v1.0,2021-02-25
+1032,mpierce,A4_Crypto,2021-02-25
+1033,kclayton,C7_SmartCalc_v1.0,2021-02-26
+1034,vearleen,A6_transactions,2021-02-27
+1035,kclayton,DO3_LinuxMonitoring v1.0,2021-02-27
+1036,kclayton,CPP3_SmartCalc_v2.0,2021-03-01
+1037,amccormick,CPP6_3DViewer_v2.2,2021-03-01
+1038,dwaller,CPP5_3DViewer_v2.1,2021-03-03
+1039,bmcfarland,A7_DNA_analyser,2021-03-05
+1040,abarnes,C8_3DViewer_v1.0,2021-03-06
+1041,cgamble,A1_Maze,2021-03-07
+1042,gwade,DO2_Linux_Network,2021-03-07
+1043,vearleen,SQL3_RetailAnalytics v1.0,2021-03-07
+1044,gmcpherson,CPP1_s21_matrix+,2021-03-08
+1045,ghickey,C8_3DViewer_v1.0,2021-03-08
+1046,bleonard,DO2_Linux_Network,2021-03-08
+1047,dwalsh,C4_s21_math,2021-03-11
+1048,cgamble,C7_SmartCalc_v1.0,2021-03-13
+1049,jclay,C6_s21_matrix,2021-03-14
+1050,gmcpherson,DO4_LinuxMonitoring v2.0,2021-03-14
+1051,elawson,CPP1_s21_matrix+,2021-03-17
+1052,alee,CPP6_3DViewer_v2.2,2021-03-17
+1053,kmullins,DO6_CICD,2021-03-18
+1054,dwalsh,CPP4_3DViewer_v2.0,2021-03-18
+1055,gmcpherson,C7_SmartCalc_v1.0,2021-03-19
+1056,elawson,DO3_LinuxMonitoring v1.0,2021-03-21
+1057,bmcfarland,CPP1_s21_matrix+,2021-03-23
+1058,vearleen,C7_SmartCalc_v1.0,2021-03-23
+1059,jgallegos,SQL1_Pool,2021-03-24
+1060,fkaiser,C2_SimpleBashUtils,2021-03-25
+1061,fdonovan,C7_SmartCalc_v1.0,2021-03-26
+1062,dwaller,DO5_SimpleDocker,2021-03-26
+1063,gmcpherson,CPP4_3DViewer_v2.0,2021-03-27
+1064,senglish,CPP6_3DViewer_v2.2,2021-04-01
+1065,lthayer,DO2_Linux_Network,2021-04-02
+1066,lthayer,C6_s21_matrix,2021-04-02
+1067,senglish,DO6_CICD,2021-04-03
+1068,vearleen,C2_SimpleBashUtils,2021-04-03
+1069,fkaiser,SQL2_Info21 v1.0,2021-04-03
+1070,kshannon,CPP2_s21_containers,2021-04-04
+1071,rlarson,A2_SimpleNavigator v1.0,2021-04-05
+1072,djohns,A7_DNA_analyser,2021-04-06
+1073,mgarner,C3_s21_string+,2021-04-06
+1074,abowers,SQL2_Info21 v1.0,2021-04-06
+1075,gwade,C3_s21_string+,2021-04-06
+1076,abowers,SQL1_Pool,2021-04-08
+1077,awest,CPP2_s21_containers,2021-04-08
+1078,rmcfarland,CPP6_3DViewer_v2.2,2021-04-09
+1079,bmcfarland,CPP9_MonitoringSystem,2021-04-09
+1080,dwaller,DO5_SimpleDocker,2021-04-09
+1081,dwaller,A8_algorithmic_trading,2021-04-10
+1082,awest,A7_DNA_analyser,2021-04-10
+1083,ahill,CPP6_3DViewer_v2.2,2021-04-10
+1084,jclay,SQL1_Pool,2021-04-11
+1085,cmurphy,DO5_SimpleDocker,2021-04-11
+1086,aclay,SQL1_Pool,2021-04-12
+1087,ahill,DO2_Linux_Network,2021-04-12
+1088,bmcfarland,SQL3_RetailAnalytics v1.0,2021-04-12
+1089,rmcfarland,DO2_Linux_Network,2021-04-13
+1090,bleonard,DO4_LinuxMonitoring v2.0,2021-04-14
+1091,cchoi,A5_s21_memory,2021-04-15
+1092,rlarson,C3_s21_string+,2021-04-16
+1093,aclay,DO3_LinuxMonitoring v1.0,2021-04-17
+1094,fkaiser,A3_Parallels,2021-04-17
+1095,dwaller,CPP2_s21_containers,2021-04-21
+1096,bmelanie,C3_s21_string+,2021-04-22
+1097,ymoses,A1_Maze,2021-04-24
+1098,mgarner,A8_algorithmic_trading,2021-04-24
+1099,kclayton,A2_SimpleNavigator v1.0,2021-04-25
+1100,mmullen,CPP2_s21_containers,2021-04-26
+1101,cchoi,DO3_LinuxMonitoring v1.0,2021-04-27
+1102,elawson,A7_DNA_analyser,2021-04-28
+1103,mmullen,C4_s21_math,2021-05-01
+1104,rvalencia,CPP1_s21_matrix+,2021-05-02
+1105,bmcfarland,C5_s21_decimal,2021-05-03
+1106,mmullen,C5_s21_decimal,2021-05-05
+1107,fdonovan,C2_SimpleBashUtils,2021-05-05
+1108,djohns,DO2_Linux_Network,2021-05-06
+1109,jmcintire,CPP4_3DViewer_v2.0,2021-05-06
+1110,kclayton,CPP7_MLP,2021-05-07
+1111,cmurphy,DO4_LinuxMonitoring v2.0,2021-05-07
+1112,lcardiga,CPP4_3DViewer_v2.0,2021-05-08
+1113,abarker,C5_s21_decimal,2021-05-09
+1114,dwalsh,CPP7_MLP,2021-05-09
+1115,cgamble,A1_Maze,2021-05-09
+1116,mpierce,C6_s21_matrix,2021-05-10
+1117,jwagoner,CPP8_PhotoLab_v1.0,2021-05-14
+1118,fkaiser,CPP7_MLP,2021-05-14
+1119,bcameron,C5_s21_decimal,2021-05-15
+1120,jclay,SQL3_RetailAnalytics v1.0,2021-05-15
+1121,ymoses,SQL1_Pool,2021-05-17
+1122,fkaiser,C7_SmartCalc_v1.0,2021-05-20
+1123,lmackey,CPP9_MonitoringSystem,2021-05-20
+1124,cgamble,CPP2_s21_containers,2021-05-21
+1125,cchoi,CPP4_3DViewer_v2.0,2021-05-22
+1126,ctrevino,DO4_LinuxMonitoring v2.0,2021-05-23
+1127,mfuentes,A2_SimpleNavigator v1.0,2021-05-24
+1128,bmcfarland,DO5_SimpleDocker,2021-05-26
+1129,lmackey,C6_s21_matrix,2021-05-26
+1130,dkaplan,C3_s21_string+,2021-05-27
+1131,cgamble,C4_s21_math,2021-05-28
+1132,lthayer,A2_SimpleNavigator v1.0,2021-06-01
+1133,jwagoner,A6_transactions,2021-06-02
+1134,ghickey,A3_Parallels,2021-06-03
+1135,bleonard,DO6_CICD,2021-06-03
+1136,jmcintire,CPP6_3DViewer_v2.2,2021-06-03
+1137,cgamble,C6_s21_matrix,2021-06-04
+1138,amccormick,C3_s21_string+,2021-06-06
+1139,kmullins,SQL1_Pool,2021-06-07
+1140,amccormick,CPP1_s21_matrix+,2021-06-08
+1141,elawson,A8_algorithmic_trading,2021-06-09
+1142,lcardiga,A3_Parallels,2021-06-10
+1143,abarker,DO1_Linux,2021-06-11
+1144,cmurphy,CPP9_MonitoringSystem,2021-06-11
+1145,awest,C7_SmartCalc_v1.0,2021-06-13
+1146,ahill,A5_s21_memory,2021-06-14
+1147,mmullen,C5_s21_decimal,2021-06-14
+1148,jgallegos,CPP3_SmartCalc_v2.0,2021-06-15
+1149,wcary,SQL1_Pool,2021-06-15
+1150,ahill,A4_Crypto,2021-06-16
+1151,ymoses,A7_DNA_analyser,2021-06-16
+1152,jmcintire,A2_SimpleNavigator v1.0,2021-06-16
+1153,abowers,A5_s21_memory,2021-06-18
+1154,msandoval,CPP6_3DViewer_v2.2,2021-06-19
+1155,msandoval,A7_DNA_analyser,2021-06-21
+1156,lhorn,DO3_LinuxMonitoring v1.0,2021-06-23
+1157,elawson,A5_s21_memory,2021-06-23
+1158,rhurst,A5_s21_memory,2021-06-23
+1159,cgamble,SQL1_Pool,2021-06-24
+1160,ahill,C6_s21_matrix,2021-06-24
+1161,aclay,DO3_LinuxMonitoring v1.0,2021-06-26
+1162,fkaiser,A6_transactions,2021-07-05
+1163,rmcfarland,CPP9_MonitoringSystem,2021-07-06
+1164,jgallegos,C3_s21_string+,2021-07-06
+1165,djohns,A8_algorithmic_trading,2021-07-06
+1166,kshannon,SQL3_RetailAnalytics v1.0,2021-07-07
+1167,msandoval,C8_3DViewer_v1.0,2021-07-08
+1168,cmurphy,CPP8_PhotoLab_v1.0,2021-07-08
+1169,cchoi,C4_s21_math,2021-07-09
+1170,jgallegos,CPP7_MLP,2021-07-10
+1171,abarnes,C7_SmartCalc_v1.0,2021-07-13
+1172,bmcfarland,CPP7_MLP,2021-07-14
+1173,mpierce,DO1_Linux,2021-07-14
+1174,wcary,A8_algorithmic_trading,2021-07-15
+1175,vearleen,DO4_LinuxMonitoring v2.0,2021-07-17
+1176,vearleen,C6_s21_matrix,2021-07-18
+1177,kclayton,SQL1_Pool,2021-07-19
+1178,kshannon,SQL3_RetailAnalytics v1.0,2021-07-19
+1179,lthayer,DO4_LinuxMonitoring v2.0,2021-07-19
+1180,rmcfarland,C2_SimpleBashUtils,2021-07-19
+1181,aclay,DO5_SimpleDocker,2021-07-19
+1182,jwagoner,CPP3_SmartCalc_v2.0,2021-07-21
+1183,ahill,A8_algorithmic_trading,2021-07-21
+1184,cgamble,C6_s21_matrix,2021-07-22
+1185,dkaplan,CPP7_MLP,2021-07-23
+1186,gmcpherson,SQL2_Info21 v1.0,2021-07-27
+1187,lhorn,CPP3_SmartCalc_v2.0,2021-07-28
+1188,rhurst,SQL2_Info21 v1.0,2021-07-28
+1189,lhorn,C5_s21_decimal,2021-08-03
+1190,djohns,SQL3_RetailAnalytics v1.0,2021-08-04
+1191,fkaiser,DO2_Linux_Network,2021-08-04
+1192,lmackey,SQL2_Info21 v1.0,2021-08-05
+1193,ghickey,DO5_SimpleDocker,2021-08-05
+1194,fdonovan,A4_Crypto,2021-08-05
+1195,lhorn,DO3_LinuxMonitoring v1.0,2021-08-05
+1196,bcameron,A1_Maze,2021-08-06
+1197,dwaller,C8_3DViewer_v1.0,2021-08-06
+1198,fdonovan,C8_3DViewer_v1.0,2021-08-07
+1199,dwalsh,A8_algorithmic_trading,2021-08-07
+1200,bmelanie,DO1_Linux,2021-08-07
+1201,elawson,C3_s21_string+,2021-08-09
+1202,rmcfarland,SQL2_Info21 v1.0,2021-08-09
+1203,awest,SQL1_Pool,2021-08-11
+1204,rmcbride,SQL1_Pool,2021-08-11
+1205,dkaplan,A2_SimpleNavigator v1.0,2021-08-11
+1206,djohns,A5_s21_memory,2021-08-12
+1207,vearleen,DO3_LinuxMonitoring v1.0,2021-08-13
+1208,wcary,A7_DNA_analyser,2021-08-14
+1209,gmcpherson,A6_transactions,2021-08-16
+1210,rlarson,CPP3_SmartCalc_v2.0,2021-08-16
+1211,cchoi,CPP2_s21_containers,2021-08-17
+1212,bmcfarland,A4_Crypto,2021-08-17
+1213,fdonovan,C6_s21_matrix,2021-08-19
+1214,jmcintire,CPP8_PhotoLab_v1.0,2021-08-20
+1215,abarker,CPP3_SmartCalc_v2.0,2021-08-21
+1216,bmcfarland,CPP5_3DViewer_v2.1,2021-08-23
+1217,amccormick,DO4_LinuxMonitoring v2.0,2021-08-24
+1218,mfuentes,C3_s21_string+,2021-08-24
+1219,jgallegos,CPP1_s21_matrix+,2021-08-24
+1220,abarnes,A2_SimpleNavigator v1.0,2021-08-24
+1221,djohns,C8_3DViewer_v1.0,2021-08-24
+1222,mmullen,CPP4_3DViewer_v2.0,2021-08-24
+1223,abarker,A5_s21_memory,2021-08-25
+1224,bcameron,C3_s21_string+,2021-08-27
+1225,gwade,DO1_Linux,2021-08-28
+1226,hbethann,DO5_SimpleDocker,2021-08-28
+1227,rmcfarland,DO4_LinuxMonitoring v2.0,2021-09-01
+1228,fkaiser,CPP3_SmartCalc_v2.0,2021-09-01
+1229,cfry,C5_s21_decimal,2021-09-01
+1230,wcary,CPP8_PhotoLab_v1.0,2021-09-01
+1231,ctrevino,DO6_CICD,2021-09-03
+1232,bmelanie,DO5_SimpleDocker,2021-09-03
+1233,jwagoner,SQL2_Info21 v1.0,2021-09-05
+1234,dwalsh,A3_Parallels,2021-09-05
+1235,dwaller,C2_SimpleBashUtils,2021-09-07
+1236,cfry,CPP3_SmartCalc_v2.0,2021-09-08
+1237,rvalencia,CPP9_MonitoringSystem,2021-09-09
+1238,mmullen,A6_transactions,2021-09-10
+1239,kclayton,C3_s21_string+,2021-09-13
+1240,kmullins,C3_s21_string+,2021-09-13
+1241,bmcfarland,A8_algorithmic_trading,2021-09-14
+1242,dwalsh,A8_algorithmic_trading,2021-09-14
+1243,kmullins,A2_SimpleNavigator v1.0,2021-09-14
+1244,vearleen,DO3_LinuxMonitoring v1.0,2021-09-16
+1245,jmcintire,C5_s21_decimal,2021-09-17
+1246,fdonovan,C7_SmartCalc_v1.0,2021-09-17
+1247,cgamble,A5_s21_memory,2021-09-18
+1248,dwaller,DO3_LinuxMonitoring v1.0,2021-09-20
+1249,abowers,DO6_CICD,2021-09-22
+1250,vearleen,CPP7_MLP,2021-09-22
+1251,hbethann,SQL3_RetailAnalytics v1.0,2021-09-23
+1252,bleonard,C6_s21_matrix,2021-09-25
+1253,wcary,CPP7_MLP,2021-09-27
+1254,cmurphy,CPP6_3DViewer_v2.2,2021-09-28
+1255,djohns,CPP6_3DViewer_v2.2,2021-10-02
+1256,cgamble,CPP4_3DViewer_v2.0,2021-10-04
+1257,jmcintire,DO1_Linux,2021-10-05
+1258,aclay,A3_Parallels,2021-10-05
+1259,cmurphy,C2_SimpleBashUtils,2021-10-07
+1260,fkaiser,C4_s21_math,2021-10-07
+1261,amccormick,C3_s21_string+,2021-10-08
+1262,rlarson,CPP3_SmartCalc_v2.0,2021-10-09
+1263,ghickey,A6_transactions,2021-10-11
+1264,vearleen,SQL3_RetailAnalytics v1.0,2021-10-13
+1265,rvalencia,C3_s21_string+,2021-10-15
+1266,dwalsh,CPP6_3DViewer_v2.2,2021-10-15
+1267,djohns,A4_Crypto,2021-10-15
+1268,mmullen,A7_DNA_analyser,2021-10-16
+1269,elawson,A5_s21_memory,2021-10-16
+1270,kshannon,CPP7_MLP,2021-10-16
+1271,amccormick,SQL3_RetailAnalytics v1.0,2021-10-20
+1272,jwagoner,CPP9_MonitoringSystem,2021-10-21
+1273,dwalsh,A6_transactions,2021-10-22
+1274,fkaiser,A4_Crypto,2021-10-22
+1275,djohns,CPP4_3DViewer_v2.0,2021-10-22
+1276,bmelanie,C8_3DViewer_v1.0,2021-10-23
+1277,abowers,A7_DNA_analyser,2021-10-23
+1278,awest,SQL1_Pool,2021-10-24
+1279,awest,CPP5_3DViewer_v2.1,2021-10-25
+1280,ctrevino,CPP8_PhotoLab_v1.0,2021-10-26
+1281,msandoval,SQL2_Info21 v1.0,2021-10-27
+1282,lhorn,A2_SimpleNavigator v1.0,2021-11-01
+1283,abowers,CPP5_3DViewer_v2.1,2021-11-01
+1284,kmullins,CPP6_3DViewer_v2.2,2021-11-05
+1285,jmcintire,CPP8_PhotoLab_v1.0,2021-11-06
+1286,bmcfarland,C6_s21_matrix,2021-11-09
+1287,cchoi,C5_s21_decimal,2021-11-10
+1288,djohns,SQL2_Info21 v1.0,2021-11-11
+1289,bcameron,A2_SimpleNavigator v1.0,2021-11-12
+1290,cgamble,CPP6_3DViewer_v2.2,2021-11-12
+1291,mfuentes,CPP3_SmartCalc_v2.0,2021-11-13
+1292,ctrevino,CPP1_s21_matrix+,2021-11-15
+1293,lthayer,CPP7_MLP,2021-11-15
+1294,wcary,C4_s21_math,2021-11-15
+1295,mmullen,A7_DNA_analyser,2021-11-16
+1296,gmcpherson,DO5_SimpleDocker,2021-11-17
+1297,ymoses,CPP6_3DViewer_v2.2,2021-11-17
+1298,rhurst,CPP8_PhotoLab_v1.0,2021-11-19
+1299,jclay,CPP1_s21_matrix+,2021-11-20
+1300,msandoval,C2_SimpleBashUtils,2021-11-21
+1301,rlarson,C5_s21_decimal,2021-11-21
+1302,djohns,A2_SimpleNavigator v1.0,2021-11-22
+1303,elawson,CPP5_3DViewer_v2.1,2021-11-22
+1304,bcameron,A1_Maze,2021-11-22
+1305,rhurst,SQL1_Pool,2021-11-22
+1306,msandoval,A2_SimpleNavigator v1.0,2021-11-23
+1307,msandoval,SQL2_Info21 v1.0,2021-11-23
+1308,fdonovan,DO4_LinuxMonitoring v2.0,2021-11-24
+1309,djohns,A4_Crypto,2021-11-25
+1310,lhorn,CPP5_3DViewer_v2.1,2021-11-26
+1311,bmcfarland,C5_s21_decimal,2021-11-26
+1312,lmackey,DO3_LinuxMonitoring v1.0,2021-11-27
+1313,ghickey,DO4_LinuxMonitoring v2.0,2021-11-27
+1314,rmcbride,CPP8_PhotoLab_v1.0,2021-11-28
+1315,rhurst,CPP5_3DViewer_v2.1,2021-12-01
+1316,lmackey,DO1_Linux,2021-12-03
+1317,kmullins,CPP8_PhotoLab_v1.0,2021-12-03
+1318,abarnes,C7_SmartCalc_v1.0,2021-12-05
+1319,bleonard,C2_SimpleBashUtils,2021-12-06
+1320,lthayer,A3_Parallels,2021-12-07
+1321,lthayer,A7_DNA_analyser,2021-12-07
+1322,jwagoner,DO4_LinuxMonitoring v2.0,2021-12-07
+1323,cchoi,CPP6_3DViewer_v2.2,2021-12-11
+1324,msandoval,A5_s21_memory,2021-12-11
+1325,aclay,SQL3_RetailAnalytics v1.0,2021-12-14
+1326,dwalsh,CPP8_PhotoLab_v1.0,2021-12-15
+1327,bmelanie,CPP2_s21_containers,2021-12-17
+1328,aclay,DO4_LinuxMonitoring v2.0,2021-12-17
+1329,jmcintire,DO6_CICD,2021-12-20
+1330,jgallegos,DO6_CICD,2021-12-22
+1331,abarker,A4_Crypto,2021-12-22
+1332,rvalencia,CPP8_PhotoLab_v1.0,2021-12-22
+1333,msandoval,A4_Crypto,2021-12-24
+1334,cgamble,C4_s21_math,2021-12-25
+1335,dwalsh,DO6_CICD,2022-01-04
+1336,rhurst,DO1_Linux,2022-01-05
+1337,mfuentes,CPP9_MonitoringSystem,2022-01-07
+1338,wcary,CPP5_3DViewer_v2.1,2022-01-08
+1339,dwaller,DO5_SimpleDocker,2022-01-09
+1340,gmcpherson,CPP9_MonitoringSystem,2022-01-11
+1341,dwaller,CPP2_s21_containers,2022-01-11
+1342,jmcintire,CPP3_SmartCalc_v2.0,2022-01-11
+1343,abarker,C3_s21_string+,2022-01-12
+1344,ymoses,CPP8_PhotoLab_v1.0,2022-01-14
+1345,rmcfarland,A8_algorithmic_trading,2022-01-16
+1346,amccormick,A6_transactions,2022-01-16
+1347,dkaplan,SQL2_Info21 v1.0,2022-01-18
+1348,jwagoner,SQL1_Pool,2022-01-19
+1349,fdonovan,DO3_LinuxMonitoring v1.0,2022-01-24
+1350,vearleen,DO6_CICD,2022-01-24
+1351,bleonard,CPP9_MonitoringSystem,2022-01-25
+1352,jmcintire,DO4_LinuxMonitoring v2.0,2022-01-25
+1353,wcary,CPP6_3DViewer_v2.2,2022-01-27
+1354,djohns,SQL3_RetailAnalytics v1.0,2022-01-27
+1355,dwalsh,CPP4_3DViewer_v2.0,2022-01-27
+1356,kshannon,SQL1_Pool,2022-01-28
+1357,vearleen,C3_s21_string+,2022-02-01
+1358,lcardiga,SQL1_Pool,2022-02-02
+1359,lmackey,A7_DNA_analyser,2022-02-03
+1360,mpierce,SQL1_Pool,2022-02-04
+1361,elawson,DO6_CICD,2022-02-05
+1362,gmcpherson,A7_DNA_analyser,2022-02-06
+1363,cfry,CPP7_MLP,2022-02-07
+1364,aclay,C4_s21_math,2022-02-07
+1365,djohns,A7_DNA_analyser,2022-02-09
+1366,lmackey,DO5_SimpleDocker,2022-02-09
+1367,aclay,DO4_LinuxMonitoring v2.0,2022-02-10
+1368,jgallegos,C7_SmartCalc_v1.0,2022-02-10
+1369,lcardiga,SQL1_Pool,2022-02-14
+1370,jmcintire,C6_s21_matrix,2022-02-14
+1371,jwagoner,CPP5_3DViewer_v2.1,2022-02-14
+1372,lhorn,A2_SimpleNavigator v1.0,2022-02-14
+1373,msandoval,C2_SimpleBashUtils,2022-02-22
+1374,djohns,CPP6_3DViewer_v2.2,2022-02-23
+1375,cmurphy,A8_algorithmic_trading,2022-02-24
+1376,dkaplan,C7_SmartCalc_v1.0,2022-02-26
+1377,abarnes,DO2_Linux_Network,2022-02-27
+1378,bcameron,SQL1_Pool,2022-02-28
+1379,kmullins,DO1_Linux,2022-02-28
+1380,lcardiga,DO3_LinuxMonitoring v1.0,2022-03-01
+1381,abarnes,DO1_Linux,2022-03-01
+1382,cgamble,SQL3_RetailAnalytics v1.0,2022-03-04
+1383,aclay,A6_transactions,2022-03-05
+1384,jgallegos,C3_s21_string+,2022-03-06
+1385,mgarner,CPP7_MLP,2022-03-06
+1386,mfuentes,DO6_CICD,2022-03-06
+1387,jmcintire,CPP9_MonitoringSystem,2022-03-08
+1388,mfuentes,DO2_Linux_Network,2022-03-09
+1389,awest,A5_s21_memory,2022-03-12
+1390,jmcintire,CPP6_3DViewer_v2.2,2022-03-13
+1391,dkaplan,SQL2_Info21 v1.0,2022-03-15
+1392,jmcintire,CPP7_MLP,2022-03-16
+1393,cfry,CPP9_MonitoringSystem,2022-03-17
+1394,cchoi,DO4_LinuxMonitoring v2.0,2022-03-18
+1395,jmcintire,SQL2_Info21 v1.0,2022-03-20
+1396,rlarson,C5_s21_decimal,2022-03-20
+1397,ahill,DO1_Linux,2022-03-22
+1398,dwalsh,SQL2_Info21 v1.0,2022-03-22
+1399,aclay,CPP2_s21_containers,2022-03-24
+1400,jgallegos,C2_SimpleBashUtils,2022-03-27
+1401,dwaller,A6_transactions,2022-03-27
+1402,jclay,CPP4_3DViewer_v2.0,2022-04-02
+1403,amccormick,A3_Parallels,2022-04-04
+1404,gmcpherson,A3_Parallels,2022-04-04
+1405,ghickey,CPP8_PhotoLab_v1.0,2022-04-06
+1406,gwade,A1_Maze,2022-04-07
+1407,dwalsh,A1_Maze,2022-04-07
+1408,bmelanie,C5_s21_decimal,2022-04-07
+1409,lmackey,CPP1_s21_matrix+,2022-04-08
+1410,bmelanie,C8_3DViewer_v1.0,2022-04-08
+1411,wcary,A7_DNA_analyser,2022-04-10
+1412,djohns,C8_3DViewer_v1.0,2022-04-10
+1413,bmelanie,A3_Parallels,2022-04-11
+1414,ghickey,DO1_Linux,2022-04-12
+1415,mmullen,A3_Parallels,2022-04-13
+1416,kmullins,CPP4_3DViewer_v2.0,2022-04-14
+1417,mpierce,DO3_LinuxMonitoring v1.0,2022-04-16
+1418,cgamble,DO1_Linux,2022-04-18
+1419,mfuentes,DO2_Linux_Network,2022-04-18
+1420,dwalsh,CPP6_3DViewer_v2.2,2022-04-18
+1421,fdonovan,CPP2_s21_containers,2022-04-18
+1422,aclay,A1_Maze,2022-04-21
+1423,abowers,C6_s21_matrix,2022-04-21
+1424,ymoses,A3_Parallels,2022-04-21
+1425,cmurphy,C4_s21_math,2022-04-22
+1426,rhurst,A3_Parallels,2022-04-22
+1427,senglish,CPP2_s21_containers,2022-04-22
+1428,vearleen,C4_s21_math,2022-04-22
+1429,abowers,SQL3_RetailAnalytics v1.0,2022-04-23
+1430,gwade,DO4_LinuxMonitoring v2.0,2022-04-23
+1431,awest,DO5_SimpleDocker,2022-04-23
+1432,lhorn,DO2_Linux_Network,2022-04-25
+1433,ahill,C8_3DViewer_v1.0,2022-04-25
+1434,bmcfarland,CPP1_s21_matrix+,2022-04-25
+1435,fdonovan,CPP5_3DViewer_v2.1,2022-04-26
+1436,mgarner,A5_s21_memory,2022-04-27
+1437,gwade,DO2_Linux_Network,2022-04-27
+1438,abarker,C8_3DViewer_v1.0,2022-04-28
+1439,rlarson,A5_s21_memory,2022-05-01
+1440,dwaller,CPP8_PhotoLab_v1.0,2022-05-02
+1441,hbethann,CPP4_3DViewer_v2.0,2022-05-02
+1442,ymoses,A1_Maze,2022-05-02
+1443,dwalsh,CPP1_s21_matrix+,2022-05-03
+1444,fdonovan,A2_SimpleNavigator v1.0,2022-05-04
+1445,cchoi,C7_SmartCalc_v1.0,2022-05-05
+1446,mfuentes,CPP9_MonitoringSystem,2022-05-06
+1447,wcary,CPP2_s21_containers,2022-05-06
+1448,bmelanie,CPP2_s21_containers,2022-05-07
+1449,jwagoner,DO2_Linux_Network,2022-05-10
+1450,aclay,CPP4_3DViewer_v2.0,2022-05-10
+1451,awest,C5_s21_decimal,2022-05-12
+1452,rhurst,CPP8_PhotoLab_v1.0,2022-05-12
+1453,ymoses,C7_SmartCalc_v1.0,2022-05-15
+1454,mpierce,SQL3_RetailAnalytics v1.0,2022-05-15
+1455,lcardiga,DO4_LinuxMonitoring v2.0,2022-05-16
+1456,hbethann,A7_DNA_analyser,2022-05-18
+1457,lcardiga,CPP9_MonitoringSystem,2022-05-18
+1458,aclay,DO2_Linux_Network,2022-05-19
+1459,cchoi,C3_s21_string+,2022-05-19
+1460,abarnes,SQL1_Pool,2022-05-21
+1461,mgarner,DO3_LinuxMonitoring v1.0,2022-05-21
+1462,fdonovan,C7_SmartCalc_v1.0,2022-05-22
+1463,gmcpherson,CPP4_3DViewer_v2.0,2022-05-22
+1464,lmackey,SQL2_Info21 v1.0,2022-05-22
+1465,cchoi,SQL2_Info21 v1.0,2022-05-22
+1466,rlarson,A2_SimpleNavigator v1.0,2022-05-22
+1467,cmurphy,CPP8_PhotoLab_v1.0,2022-05-24
+1468,bleonard,CPP9_MonitoringSystem,2022-05-26
+1469,vearleen,DO4_LinuxMonitoring v2.0,2022-06-01
+1470,lcardiga,A2_SimpleNavigator v1.0,2022-06-02
+1471,ctrevino,CPP5_3DViewer_v2.1,2022-06-02
+1472,abarker,CPP7_MLP,2022-06-02
+1473,kmullins,A5_s21_memory,2022-06-03
+1474,gmcpherson,CPP3_SmartCalc_v2.0,2022-06-05
+1475,msandoval,CPP1_s21_matrix+,2022-06-06
+1476,ahill,CPP4_3DViewer_v2.0,2022-06-06
+1477,abarnes,A6_transactions,2022-06-07
+1478,abarnes,SQL3_RetailAnalytics v1.0,2022-06-09
+1479,bmelanie,CPP8_PhotoLab_v1.0,2022-06-11
+1480,abowers,CPP1_s21_matrix+,2022-06-11
+1481,mmullen,A6_transactions,2022-06-13
+1482,elawson,A6_transactions,2022-06-13
+1483,djohns,DO4_LinuxMonitoring v2.0,2022-06-14
+1484,cchoi,SQL3_RetailAnalytics v1.0,2022-06-14
+1485,djohns,CPP1_s21_matrix+,2022-06-15
+1486,abarnes,SQL1_Pool,2022-06-15
+1487,wcary,DO4_LinuxMonitoring v2.0,2022-06-17
+1488,cmurphy,A6_transactions,2022-06-18
+1489,kmullins,CPP9_MonitoringSystem,2022-06-18
+1490,rlarson,C4_s21_math,2022-06-18
+1491,fkaiser,DO5_SimpleDocker,2022-06-18
+1492,wcary,C7_SmartCalc_v1.0,2022-06-19
+1493,djohns,A5_s21_memory,2022-06-20
+1494,dkaplan,CPP4_3DViewer_v2.0,2022-06-20
+1495,cgamble,A7_DNA_analyser,2022-06-20
+1496,bleonard,C5_s21_decimal,2022-06-21
+1497,mpierce,DO5_SimpleDocker,2022-06-22
+1498,mpierce,SQL2_Info21 v1.0,2022-06-23
+1499,lmackey,CPP2_s21_containers,2022-06-23
+1500,dwaller,A7_DNA_analyser,2022-06-24
+1501,ghickey,C8_3DViewer_v1.0,2022-06-27
+1502,cfry,A6_transactions,2022-06-27
+1503,cchoi,SQL1_Pool,2022-07-02
+1504,elawson,DO3_LinuxMonitoring v1.0,2022-07-03
+1505,ghickey,A6_transactions,2022-07-03
+1506,gmcpherson,DO5_SimpleDocker,2022-07-03
+1507,jwagoner,SQL2_Info21 v1.0,2022-07-04
+1508,rmcfarland,A6_transactions,2022-07-05
+1509,ymoses,SQL2_Info21 v1.0,2022-07-05
+1510,jwagoner,A6_transactions,2022-07-07
+1511,mmullen,CPP9_MonitoringSystem,2022-07-08
+1512,elawson,CPP3_SmartCalc_v2.0,2022-07-09
+1513,ahill,SQL3_RetailAnalytics v1.0,2022-07-12
+1514,msandoval,CPP5_3DViewer_v2.1,2022-07-12
+1515,abarnes,CPP9_MonitoringSystem,2022-07-13
+1516,cfry,DO2_Linux_Network,2022-07-16
+1517,gwade,CPP3_SmartCalc_v2.0,2022-07-18
+1518,djohns,DO5_SimpleDocker,2022-07-20
+1519,jwagoner,A6_transactions,2022-07-20
+1520,lhorn,DO3_LinuxMonitoring v1.0,2022-07-20
+1521,lthayer,C3_s21_string+,2022-07-23
+1522,gmcpherson,SQL2_Info21 v1.0,2022-07-24
+1523,ctrevino,DO4_LinuxMonitoring v2.0,2022-07-26
+1524,jmcintire,CPP1_s21_matrix+,2022-07-27
+1525,lhorn,C7_SmartCalc_v1.0,2022-08-02
+1526,bleonard,CPP1_s21_matrix+,2022-08-03
+1527,hbethann,CPP1_s21_matrix+,2022-08-04
+1528,amccormick,SQL1_Pool,2022-08-05
+1529,jclay,C5_s21_decimal,2022-08-05
+1530,djohns,A2_SimpleNavigator v1.0,2022-08-05
+1531,elawson,CPP9_MonitoringSystem,2022-08-06
+1532,mfuentes,DO5_SimpleDocker,2022-08-07
+1533,abarker,A7_DNA_analyser,2022-08-10
+1534,dwaller,DO6_CICD,2022-08-10
+1535,cmurphy,A1_Maze,2022-08-11
+1536,ahill,A4_Crypto,2022-08-12
+1537,kmullins,CPP3_SmartCalc_v2.0,2022-08-12
+1538,ymoses,C5_s21_decimal,2022-08-13
+1539,bmcfarland,A3_Parallels,2022-08-13
+1540,fkaiser,C6_s21_matrix,2022-08-15
+1541,hbethann,DO3_LinuxMonitoring v1.0,2022-08-16
+1542,jwagoner,C8_3DViewer_v1.0,2022-08-16
+1543,lcardiga,DO4_LinuxMonitoring v2.0,2022-08-17
+1544,lmackey,DO5_SimpleDocker,2022-08-18
+1545,cfry,C3_s21_string+,2022-08-18
+1546,abarnes,A7_DNA_analyser,2022-08-18
+1547,lcardiga,CPP1_s21_matrix+,2022-08-19
+1548,dwalsh,DO6_CICD,2022-08-21
+1549,bmelanie,CPP8_PhotoLab_v1.0,2022-08-21
+1550,aclay,C3_s21_string+,2022-08-21
+1551,msandoval,A6_transactions,2022-08-26
+1552,cgamble,CPP3_SmartCalc_v2.0,2022-08-28
+1553,ghickey,CPP7_MLP,2022-08-28
+1554,dwalsh,DO5_SimpleDocker,2022-08-28
+1555,wcary,CPP1_s21_matrix+,2022-08-28
+1556,kclayton,CPP4_3DViewer_v2.0,2022-09-01
+1557,dwaller,C3_s21_string+,2022-09-04
+1558,ymoses,A2_SimpleNavigator v1.0,2022-09-05
+1559,ghickey,A5_s21_memory,2022-09-06
+1560,senglish,A4_Crypto,2022-09-06
+1561,bmcfarland,CPP2_s21_containers,2022-09-06
+1562,kclayton,CPP2_s21_containers,2022-09-08
+1563,jmcintire,CPP7_MLP,2022-09-09
+1564,dkaplan,A6_transactions,2022-09-12
+1565,gwade,CPP3_SmartCalc_v2.0,2022-09-15
+1566,gmcpherson,CPP5_3DViewer_v2.1,2022-09-16
+1567,aclay,CPP7_MLP,2022-09-19
+1568,ctrevino,C7_SmartCalc_v1.0,2022-09-19
+1569,msandoval,C4_s21_math,2022-09-19
+1570,lhorn,CPP5_3DViewer_v2.1,2022-09-20
+1571,hbethann,CPP3_SmartCalc_v2.0,2022-09-21
+1572,kmullins,C4_s21_math,2022-09-23
+1573,jmcintire,C2_SimpleBashUtils,2022-09-23
+1574,lmackey,SQL3_RetailAnalytics v1.0,2022-09-23
+1575,elawson,C2_SimpleBashUtils,2022-09-25
+1576,kclayton,SQL1_Pool,2022-09-25
+1577,abowers,A1_Maze,2022-09-25
+1578,rlarson,CPP5_3DViewer_v2.1,2022-09-27
+1579,fhiedi,SQL1_Pool,2022-09-27
+1580,kshannon,C3_s21_string+,2022-09-27
+1581,awest,CPP6_3DViewer_v2.2,2022-09-28
+1582,jgallegos,CPP1_s21_matrix+,2022-10-01
+1583,senglish,DO2_Linux_Network,2022-10-01
+1584,bcameron,A1_Maze,2022-10-02
+1585,fhiedi,SQL3_RetailAnalytics v1.0,2022-10-02
+1586,bmcfarland,C6_s21_matrix,2022-10-02
+1587,cfry,SQL1_Pool,2022-10-03
+1588,jmcintire,A4_Crypto,2022-10-03
+1589,djohns,C7_SmartCalc_v1.0,2022-10-06
+1590,djohns,DO1_Linux,2022-10-06
+1591,jclay,CPP5_3DViewer_v2.1,2022-10-06
+1592,cgamble,CPP6_3DViewer_v2.2,2022-10-07
+1593,bmcfarland,CPP2_s21_containers,2022-10-07
+1594,aclay,DO4_LinuxMonitoring v2.0,2022-10-08
+1595,gmcpherson,A2_SimpleNavigator v1.0,2022-10-08
+1596,jwagoner,CPP5_3DViewer_v2.1,2022-10-09
+1597,rhurst,CPP3_SmartCalc_v2.0,2022-10-11
+1598,elawson,CPP2_s21_containers,2022-10-11
+1599,dwaller,A8_algorithmic_trading,2022-10-12
+1600,dwaller,CPP5_3DViewer_v2.1,2022-10-12
+1601,fkaiser,C3_s21_string+,2022-10-13
+1602,mpierce,CPP1_s21_matrix+,2022-10-13
+1603,vearleen,CPP1_s21_matrix+,2022-10-13
+1604,bmelanie,C4_s21_math,2022-10-14
+1605,wcary,SQL3_RetailAnalytics v1.0,2022-10-16
+1606,gmcpherson,CPP5_3DViewer_v2.1,2022-10-16
+1607,ghickey,C5_s21_decimal,2022-10-17
+1608,mmullen,CPP3_SmartCalc_v2.0,2022-10-18
+1609,amccormick,C7_SmartCalc_v1.0,2022-10-19
+1610,gwade,DO2_Linux_Network,2022-10-21
+1611,cchoi,C5_s21_decimal,2022-10-22
+1612,gmcpherson,CPP5_3DViewer_v2.1,2022-10-24
+1613,rmcbride,A3_Parallels,2022-10-24
+1614,kmullins,A2_SimpleNavigator v1.0,2022-10-25
+1615,ctrevino,CPP2_s21_containers,2022-10-25
+1616,alee,CPP2_s21_containers,2022-11-01
+1617,awest,CPP1_s21_matrix+,2022-11-02
+1618,lmackey,CPP5_3DViewer_v2.1,2022-11-03
+1619,cgamble,C7_SmartCalc_v1.0,2022-11-04
+1620,jclay,A1_Maze,2022-11-05
+1621,lhorn,C3_s21_string+,2022-11-05
+1622,cgamble,C6_s21_matrix,2022-11-05
+1623,wcary,A2_SimpleNavigator v1.0,2022-11-06
+1624,fkaiser,A8_algorithmic_trading,2022-11-07
+1625,ctrevino,DO3_LinuxMonitoring v1.0,2022-11-08
+1626,wcary,DO1_Linux,2022-11-08
+1627,ctrevino,CPP4_3DViewer_v2.0,2022-11-09
+1628,kclayton,DO2_Linux_Network,2022-11-11
+1629,cfry,CPP5_3DViewer_v2.1,2022-11-11
+1630,mgarner,DO1_Linux,2022-11-15
+1631,jgallegos,DO4_LinuxMonitoring v2.0,2022-11-16
+1632,lmackey,CPP3_SmartCalc_v2.0,2022-11-18
+1633,kclayton,C3_s21_string+,2022-11-21
+1634,rlarson,C6_s21_matrix,2022-11-23
+1635,bmcfarland,SQL1_Pool,2022-11-24
+1636,gwade,A8_algorithmic_trading,2022-11-25
+1637,vearleen,DO4_LinuxMonitoring v2.0,2022-11-25
+1638,mmullen,DO4_LinuxMonitoring v2.0,2022-11-28
+1639,djohns,C4_s21_math,2022-11-28
+1640,bmelanie,CPP1_s21_matrix+,2022-12-01
+1641,jwagoner,DO2_Linux_Network,2022-12-01
+1642,fkaiser,C3_s21_string+,2022-12-02
+1643,jclay,A7_DNA_analyser,2022-12-02
+1644,fhiedi,A4_Crypto,2022-12-03
+1645,abarnes,SQL2_Info21 v1.0,2022-12-05
+1646,elawson,C6_s21_matrix,2022-12-05
+1647,gwade,A3_Parallels,2022-12-06
+1648,cgamble,CPP6_3DViewer_v2.2,2022-12-07
+1649,fdonovan,C8_3DViewer_v1.0,2022-12-09
+1650,rlarson,CPP3_SmartCalc_v2.0,2022-12-10
+1651,mmullen,DO4_LinuxMonitoring v2.0,2022-12-11
+1652,lcardiga,C8_3DViewer_v1.0,2022-12-12
+1653,mfuentes,SQL3_RetailAnalytics v1.0,2022-12-12
+1654,rvalencia,C5_s21_decimal,2022-12-13
+1655,dkaplan,A2_SimpleNavigator v1.0,2022-12-16
+1656,mgarner,C6_s21_matrix,2022-12-18
+1657,rhurst,C3_s21_string+,2022-12-18
+1658,gwade,DO1_Linux,2022-12-18
+1659,msandoval,CPP9_MonitoringSystem,2022-12-19
+1660,ctrevino,C2_SimpleBashUtils,2022-12-19
+1661,dwaller,CPP4_3DViewer_v2.0,2022-12-23
+1662,mmullen,CPP4_3DViewer_v2.0,2022-12-23
+1663,dwalsh,CPP1_s21_matrix+,2022-12-26
+1664,ymoses,A1_Maze,2023-01-02
+1665,djohns,C2_SimpleBashUtils,2023-01-03
+1666,elawson,C8_3DViewer_v1.0,2023-01-04
+1667,dwaller,C3_s21_string+,2023-01-04
+1668,hbethann,A2_SimpleNavigator v1.0,2023-01-05
+1669,cgamble,SQL1_Pool,2023-01-05
+1670,abowers,SQL3_RetailAnalytics v1.0,2023-01-05
+1671,msandoval,CPP7_MLP,2023-01-05
+1672,mpierce,A4_Crypto,2023-01-06
+1673,hbethann,SQL3_RetailAnalytics v1.0,2023-01-08
+1674,fhiedi,A7_DNA_analyser,2023-01-08
+1675,fhiedi,C3_s21_string+,2023-01-09
+1676,bcameron,A5_s21_memory,2023-01-10
+1677,dwalsh,DO5_SimpleDocker,2023-01-12
+1678,aclay,A3_Parallels,2023-01-13
+1679,bmelanie,DO4_LinuxMonitoring v2.0,2023-01-13
+1680,jclay,SQL2_Info21 v1.0,2023-01-14
+1681,alee,CPP9_MonitoringSystem,2023-01-14
+1682,ahill,CPP8_PhotoLab_v1.0,2023-01-17
+1683,djohns,DO1_Linux,2023-01-20
+1684,lcardiga,CPP9_MonitoringSystem,2023-01-20
+1685,rvalencia,CPP9_MonitoringSystem,2023-01-21
+1686,jwagoner,C6_s21_matrix,2023-01-22
+1687,kclayton,A8_algorithmic_trading,2023-01-22
+1688,rlarson,SQL1_Pool,2023-01-22
+1689,abarnes,C3_s21_string+,2023-01-22
+1690,cgamble,CPP2_s21_containers,2023-01-23
+1691,rmcbride,CPP3_SmartCalc_v2.0,2023-01-24
+1692,jgallegos,A5_s21_memory,2023-01-25
+1693,cfry,A4_Crypto,2023-01-25
+1694,rmcbride,CPP5_3DViewer_v2.1,2023-01-26
+1695,ctrevino,CPP3_SmartCalc_v2.0,2023-01-26
+1696,mfuentes,DO2_Linux_Network,2023-01-27
+1697,lmackey,CPP6_3DViewer_v2.2,2023-02-03
+1698,rlarson,CPP6_3DViewer_v2.2,2023-02-03
+1699,kmullins,C3_s21_string+,2023-02-03
+1700,bmcfarland,A3_Parallels,2023-02-07
+1701,hbethann,A2_SimpleNavigator v1.0,2023-02-07
+1702,bmelanie,A1_Maze,2023-02-07
+1703,abarker,DO5_SimpleDocker,2023-02-08
+1704,cgamble,A8_algorithmic_trading,2023-02-09
+1705,cmurphy,DO6_CICD,2023-02-10
+1706,bmelanie,C4_s21_math,2023-02-10
+1707,dwaller,CPP4_3DViewer_v2.0,2023-02-11
+1708,cchoi,CPP5_3DViewer_v2.1,2023-02-11
+1709,lcardiga,A8_algorithmic_trading,2023-02-12
+1710,bmcfarland,A2_SimpleNavigator v1.0,2023-02-13
+1711,lthayer,A8_algorithmic_trading,2023-02-13
+1712,gwade,A6_transactions,2023-02-14
+1713,lhorn,A7_DNA_analyser,2023-02-15
+1714,awest,CPP6_3DViewer_v2.2,2023-02-18
+1715,rmcbride,CPP6_3DViewer_v2.2,2023-02-20
+1716,mfuentes,DO3_LinuxMonitoring v1.0,2023-02-22
+1717,amccormick,C3_s21_string+,2023-02-22
+1718,bmelanie,A1_Maze,2023-02-23
+1719,lcardiga,A4_Crypto,2023-02-25
+1720,jmcintire,A1_Maze,2023-02-25
+1721,lcardiga,C3_s21_string+,2023-02-25
+1722,msandoval,A3_Parallels,2023-02-26
+1723,hbethann,SQL1_Pool,2023-02-26
+1724,lmackey,C2_SimpleBashUtils,2023-02-26
+1725,vearleen,A3_Parallels,2023-02-26
+1726,ymoses,C7_SmartCalc_v1.0,2023-02-27
+1727,rlarson,A6_transactions,2023-02-27
+1728,mmullen,C8_3DViewer_v1.0,2023-03-01
+1729,lhorn,DO2_Linux_Network,2023-03-02
+1730,fkaiser,A4_Crypto,2023-03-02
+1731,kmullins,CPP4_3DViewer_v2.0,2023-03-04
+1732,amccormick,CPP2_s21_containers,2023-03-04
+1733,mfuentes,DO6_CICD,2023-03-05
+1734,msandoval,DO2_Linux_Network,2023-03-06
+1735,ghickey,C6_s21_matrix,2023-03-08
+1736,bleonard,C3_s21_string+,2023-03-08
+1737,rvalencia,SQL3_RetailAnalytics v1.0,2023-03-11
+1738,mpierce,A5_s21_memory,2023-03-11
+1739,abowers,DO3_LinuxMonitoring v1.0,2023-03-12
+1740,cfry,CPP9_MonitoringSystem,2023-03-14
+1741,dkaplan,C5_s21_decimal,2023-03-15
+1742,dwaller,A4_Crypto,2023-03-16
+1743,kclayton,C3_s21_string+,2023-03-18
+1744,jgallegos,DO2_Linux_Network,2023-03-19
+1745,mpierce,CPP8_PhotoLab_v1.0,2023-03-21
+1746,aclay,CPP8_PhotoLab_v1.0,2023-03-21
+1747,abarker,A2_SimpleNavigator v1.0,2023-03-21
+1748,awest,CPP9_MonitoringSystem,2023-03-22
+1749,hbethann,C3_s21_string+,2023-03-24
+1750,abowers,C2_SimpleBashUtils,2023-03-25
+1751,bmelanie,DO5_SimpleDocker,2023-03-27
+1752,cgamble,CPP8_PhotoLab_v1.0,2023-03-28
+1753,bcameron,DO4_LinuxMonitoring v2.0,2023-03-28
+1754,aclay,C6_s21_matrix,2023-04-01
+1755,bleonard,SQL1_Pool,2023-04-01
+1756,cmurphy,A1_Maze,2023-04-02
+1757,cmurphy,CPP3_SmartCalc_v2.0,2023-04-04
+1758,lthayer,A1_Maze,2023-04-04
+1759,bmcfarland,C4_s21_math,2023-04-06
+1760,ghickey,C8_3DViewer_v1.0,2023-04-06
+1761,ymoses,C8_3DViewer_v1.0,2023-04-07
+1762,mmullen,A2_SimpleNavigator v1.0,2023-04-07
+1763,rlarson,A1_Maze,2023-04-07
+1764,gmcpherson,DO5_SimpleDocker,2023-04-08
+1765,lthayer,DO3_LinuxMonitoring v1.0,2023-04-08
+1766,ghickey,CPP5_3DViewer_v2.1,2023-04-11
+1767,mmullen,CPP8_PhotoLab_v1.0,2023-04-12
+1768,hbethann,CPP6_3DViewer_v2.2,2023-04-12
+1769,rmcfarland,DO6_CICD,2023-04-12
+1770,kmullins,C7_SmartCalc_v1.0,2023-04-13
+1771,cgamble,A5_s21_memory,2023-04-14
+1772,jmcintire,A6_transactions,2023-04-14
+1773,awest,DO5_SimpleDocker,2023-04-15
+1774,kshannon,DO5_SimpleDocker,2023-04-16
+1775,rlarson,DO6_CICD,2023-04-17
+1776,abowers,A7_DNA_analyser,2023-04-18
+1777,lthayer,DO3_LinuxMonitoring v1.0,2023-04-19
+1778,awest,A8_algorithmic_trading,2023-04-19
+1779,djohns,C8_3DViewer_v1.0,2023-04-21
+1780,rhurst,CPP2_s21_containers,2023-04-22
+1781,alee,SQL3_RetailAnalytics v1.0,2023-04-22
+1782,jgallegos,C3_s21_string+,2023-04-22
+1783,msandoval,CPP5_3DViewer_v2.1,2023-04-24
+1784,ctrevino,CPP6_3DViewer_v2.2,2023-04-27
+1785,cmurphy,CPP1_s21_matrix+,2023-04-28
+1786,dwaller,A6_transactions,2023-05-02
+1787,ahill,DO4_LinuxMonitoring v2.0,2023-05-06
+1788,ymoses,DO6_CICD,2023-05-06
+1789,jmcintire,DO5_SimpleDocker,2023-05-06
+1790,aclay,DO3_LinuxMonitoring v1.0,2023-05-07
+1791,ahill,CPP3_SmartCalc_v2.0,2023-05-07
+1792,dkaplan,SQL3_RetailAnalytics v1.0,2023-05-08
+1793,lmackey,A5_s21_memory,2023-05-09
+1794,ghickey,C4_s21_math,2023-05-09
+1795,ahill,CPP8_PhotoLab_v1.0,2023-05-10
+1796,gwade,DO4_LinuxMonitoring v2.0,2023-05-11
+1797,dwalsh,A3_Parallels,2023-05-14
+1798,gmcpherson,DO3_LinuxMonitoring v1.0,2023-05-14
+1799,ahill,C8_3DViewer_v1.0,2023-05-15
+1800,bmelanie,C3_s21_string+,2023-05-15
+1801,kmullins,SQL3_RetailAnalytics v1.0,2023-05-15
+1802,mfuentes,CPP7_MLP,2023-05-15
+1803,kshannon,C7_SmartCalc_v1.0,2023-05-15
+1804,senglish,CPP3_SmartCalc_v2.0,2023-05-18
+1805,dwaller,CPP8_PhotoLab_v1.0,2023-05-18
+1806,vearleen,SQL3_RetailAnalytics v1.0,2023-05-21
+1807,abarker,A2_SimpleNavigator v1.0,2023-05-22
+1808,vearleen,C3_s21_string+,2023-05-24
+1809,rvalencia,DO4_LinuxMonitoring v2.0,2023-05-24
+1810,lthayer,CPP4_3DViewer_v2.0,2023-05-26
+1811,kmullins,C8_3DViewer_v1.0,2023-05-27
+1812,bmcfarland,DO3_LinuxMonitoring v1.0,2023-06-01
+1813,dkaplan,CPP1_s21_matrix+,2023-06-03
+1814,lcardiga,A4_Crypto,2023-06-03
+1815,jwagoner,CPP6_3DViewer_v2.2,2023-06-05
+1816,djohns,CPP4_3DViewer_v2.0,2023-06-05
+1817,mmullen,A5_s21_memory,2023-06-06
+1818,mmullen,CPP2_s21_containers,2023-06-08
+1819,jwagoner,DO4_LinuxMonitoring v2.0,2023-06-08
+1820,ctrevino,CPP1_s21_matrix+,2023-06-09
+1821,elawson,CPP4_3DViewer_v2.0,2023-06-10
+1822,awest,C8_3DViewer_v1.0,2023-06-15
+1823,kclayton,A7_DNA_analyser,2023-06-16
+1824,abowers,SQL1_Pool,2023-06-17
+1825,mgarner,A4_Crypto,2023-06-18
+1826,kclayton,A2_SimpleNavigator v1.0,2023-06-19
+1827,fhiedi,SQL3_RetailAnalytics v1.0,2023-06-19
+1828,abarker,A5_s21_memory,2023-06-20
+1829,gwade,DO3_LinuxMonitoring v1.0,2023-06-22
+1830,kshannon,A4_Crypto,2023-06-22
+1831,gwade,C7_SmartCalc_v1.0,2023-06-23
+1832,kclayton,CPP2_s21_containers,2023-06-24
+1833,djohns,SQL1_Pool,2023-06-27
+1834,ymoses,C4_s21_math,2023-06-28
+1835,jgallegos,DO6_CICD,2023-07-01
+1836,mmullen,C3_s21_string+,2023-07-01
+1837,ymoses,DO5_SimpleDocker,2023-07-01
+1838,aclay,A7_DNA_analyser,2023-07-02
+1839,hbethann,A8_algorithmic_trading,2023-07-03
+1840,rhurst,SQL3_RetailAnalytics v1.0,2023-07-04
+1841,lmackey,A3_Parallels,2023-07-07
+1842,kmullins,DO3_LinuxMonitoring v1.0,2023-07-07
+1843,kclayton,DO4_LinuxMonitoring v2.0,2023-07-08
+1844,djohns,C3_s21_string+,2023-07-09
+1845,cgamble,C6_s21_matrix,2023-07-09
+1846,lhorn,A6_transactions,2023-07-09
+1847,mpierce,DO1_Linux,2023-07-11
+1848,mpierce,CPP8_PhotoLab_v1.0,2023-07-13
+1849,jclay,A1_Maze,2023-07-14
+1850,jgallegos,CPP6_3DViewer_v2.2,2023-07-14
+1851,jwagoner,DO4_LinuxMonitoring v2.0,2023-07-15
+1852,cfry,C2_SimpleBashUtils,2023-07-16
+1853,lhorn,CPP8_PhotoLab_v1.0,2023-07-16
+1854,vearleen,DO5_SimpleDocker,2023-07-18
+1855,lmackey,DO6_CICD,2023-07-19
+1856,hbethann,DO1_Linux,2023-07-20
+1857,rmcbride,C2_SimpleBashUtils,2023-07-20
+1858,abowers,A2_SimpleNavigator v1.0,2023-07-21
+1859,kclayton,DO4_LinuxMonitoring v2.0,2023-07-22
+1860,fdonovan,CPP1_s21_matrix+,2023-07-23
+1861,cgamble,A8_algorithmic_trading,2023-07-26
+1862,aclay,DO4_LinuxMonitoring v2.0,2023-07-26
+1863,mpierce,C8_3DViewer_v1.0,2023-07-27
+1864,dwalsh,C4_s21_math,2023-07-27
+1865,hbethann,A1_Maze,2023-07-28
+1866,alee,C7_SmartCalc_v1.0,2023-08-01
+1867,ahill,A5_s21_memory,2023-08-03
+1868,cfry,C5_s21_decimal,2023-08-03
+1869,aclay,DO1_Linux,2023-08-03
+1870,gmcpherson,DO6_CICD,2023-08-08
+1871,senglish,C5_s21_decimal,2023-08-08
+1872,ctrevino,C5_s21_decimal,2023-08-09
+1873,alee,A2_SimpleNavigator v1.0,2023-08-10
+1874,jwagoner,DO5_SimpleDocker,2023-08-10
+1875,jclay,DO5_SimpleDocker,2023-08-10
+1876,lmackey,C6_s21_matrix,2023-08-11
+1877,fkaiser,CPP6_3DViewer_v2.2,2023-08-11
+1878,dwalsh,A1_Maze,2023-08-12
+1879,gmcpherson,CPP8_PhotoLab_v1.0,2023-08-12
+1880,gmcpherson,DO1_Linux,2023-08-14
+1881,alee,SQL2_Info21 v1.0,2023-08-17
+1882,ahill,C3_s21_string+,2023-08-19
+1883,ymoses,DO1_Linux,2023-08-19
+1884,abowers,CPP8_PhotoLab_v1.0,2023-08-21
+1885,jmcintire,CPP2_s21_containers,2023-08-24
+1886,cmurphy,C5_s21_decimal,2023-08-24
+1887,mpierce,CPP5_3DViewer_v2.1,2023-08-27
+1888,elawson,A8_algorithmic_trading,2023-08-27
+1889,cchoi,SQL1_Pool,2023-08-27
+1890,ctrevino,C4_s21_math,2023-08-28
+1891,wcary,C6_s21_matrix,2023-08-28
+1892,ymoses,A4_Crypto,2023-08-28

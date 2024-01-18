@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/15/bin/postgres "-D" "/Users/khin/local/school21_platform/s21_sql" "-p" "1899"
